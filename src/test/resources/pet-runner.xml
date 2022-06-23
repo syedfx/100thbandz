@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Petstore smoke Petstore">
+
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="99"></parameter>
+    <parameter name="url" value="https://petstore.octoperf.com/"></parameter>
+
+
+    <test name="PetStore">
+        <classes>
+<!--            <class name="apps.pets.FishTest"></class>-->
+<!--            <class name="apps.pets.DogsTest"></class>-->
+<!--            <class name="apps.pets.RegisterTest"></class>-->
+<!--            <class name="apps.pets.SignInTest"></class>-->
+<!--            <class name="apps.pets.CheckOutTest"></class>-->
+<!--            <class name="apps.pets.AccountsTest"></class>-->
+<!--            <class name="apps.pets.BlogTest"></class>-->
+<!--            <class name="apps.pets.CatsTest"></class>-->
+<!--            <class name="apps.pets.ReptilesTest"></class>-->
+<!--            <class name="apps.pets.BirdsTest"></class>-->
+<!--            <class name="apps.pets.OrdersTest"></class>-->
+<!--            <class name="apps.pets.SearchTest"></class>-->
+<!--            <class name="apps.pets.BlogTest"></class>-->
+<!--            <class name="apps.pets.CartTest"></class>-->
+        </classes>
+
+
+    </test>
+</suite>
