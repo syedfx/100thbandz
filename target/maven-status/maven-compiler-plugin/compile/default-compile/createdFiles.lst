@@ -1,0 +1,17 @@
+pages\petstore\MyOrdersPage.class
+pages\petstore\MyAccountPage.class
+pages\parabank\HomePage.class
+pages\petstore\CatsPage.class
+pages\petstore\CheckOutPage.class
+pages\lambatest\HomePage.class
+pages\petstore\LandingPage.class
+pages\png\HomePage.class
+pages\petstore\DogsPage.class
+pages\petstore\BirdsPage.class
+pages\petstore\FishPage.class
+pages\petstore\CatalogPage.class
+pages\opencart\HomePage.class
+pages\petstore\SignInPage.class
+pages\petstore\RegistrationPage.class
+pages\petstore\ReptilesPage.class
+pages\petstore\AddToCartPage.class

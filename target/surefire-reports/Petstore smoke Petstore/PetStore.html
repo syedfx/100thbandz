@@ -1,0 +1,434 @@
+<html>
+<head>
+<title>TestNG:  PetStore</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PetStore</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>71/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 23 23:18:53 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>425 seconds (425178 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='apps.pets.DogsTest.AdultFemaleChihuahuaDesc()'><b>AdultFemaleChihuahuaDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.AdultFemaleLabradorRetrieverDesc()'><b>AdultFemaleLabradorRetrieverDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.AdultMaleChihuahuaDesc()'><b>AdultMaleChihuahuaDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.AdultMaleLabradorRetrieverDesc()'><b>AdultMaleLabradorRetrieverDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.BirdsTest.AmazonParrotDesc()'><b>AmazonParrotDesc</b><br>Test class: apps.pets.BirdsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.BirdsTest@53f3bdbd</td></tr>
+<tr>
+<td title='apps.pets.CartTest.BullDogCarted()'><b>BullDogCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.Cart()'><b>Cart</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>0</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CheckOutTest.Checkout()'><b>Checkout</b><br>Test class: apps.pets.CheckOutTest</td>
+<td></td>
+<td>12</td>
+<td>apps.pets.CheckOutTest@76b07f29</td></tr>
+<tr>
+<td title='apps.pets.CheckOutTest.CheckoutWithCardDropDown()'><b>CheckoutWithCardDropDown</b><br>Test class: apps.pets.CheckOutTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.CheckOutTest@76b07f29</td></tr>
+<tr>
+<td title='apps.pets.CheckOutTest.CheckoutWithShiptodifferentAddress()'><b>CheckoutWithShiptodifferentAddress</b><br>Test class: apps.pets.CheckOutTest</td>
+<td></td>
+<td>4</td>
+<td>apps.pets.CheckOutTest@76b07f29</td></tr>
+<tr>
+<td title='apps.pets.RegisterTest.Create2ndAccount()'><b>Create2ndAccount</b><br>Test class: apps.pets.RegisterTest</td>
+<td></td>
+<td>7</td>
+<td>apps.pets.RegisterTest@9cb8225</td></tr>
+<tr>
+<td title='apps.pets.AccountsTest.FavoriteCategoryBirds()'><b>FavoriteCategoryBirds</b><br>Test class: apps.pets.AccountsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.AccountsTest@38af9828</td></tr>
+<tr>
+<td title='apps.pets.AccountsTest.FavoriteCategoryCat()'><b>FavoriteCategoryCat</b><br>Test class: apps.pets.AccountsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.AccountsTest@38af9828</td></tr>
+<tr>
+<td title='apps.pets.AccountsTest.FavoriteCategoryDog()'><b>FavoriteCategoryDog</b><br>Test class: apps.pets.AccountsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.AccountsTest@38af9828</td></tr>
+<tr>
+<td title='apps.pets.AccountsTest.FavoriteCategoryFish()'><b>FavoriteCategoryFish</b><br>Test class: apps.pets.AccountsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.AccountsTest@38af9828</td></tr>
+<tr>
+<td title='apps.pets.AccountsTest.FavoriteCategoryReptiles()'><b>FavoriteCategoryReptiles</b><br>Test class: apps.pets.AccountsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.AccountsTest@38af9828</td></tr>
+<tr>
+<td title='apps.pets.FishTest.FemaleGoldFishDesc()'><b>FemaleGoldFishDesc</b><br>Test class: apps.pets.FishTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.FishTest@5852c06f</td></tr>
+<tr>
+<td title='apps.pets.CatsTest.FemalePersianCatDesc()'><b>FemalePersianCatDesc</b><br>Test class: apps.pets.CatsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CatsTest@62656be4</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.FemalePuppyBulldogDesc()'><b>FemalePuppyBulldogDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.BirdsTest.FinchDesc()'><b>FinchDesc</b><br>Test class: apps.pets.BirdsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.BirdsTest@53f3bdbd</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.GoldenRetrieverDesc()'><b>GoldenRetrieverDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.ReptilesTest.GreenIguanaDesc()'><b>GreenIguanaDesc</b><br>Test class: apps.pets.ReptilesTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.ReptilesTest@17d919b6</td></tr>
+<tr>
+<td title='apps.pets.RegisterTest.InvalidRegisterAccount()'><b>InvalidRegisterAccount</b><br>Test class: apps.pets.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.RegisterTest@9cb8225</td></tr>
+<tr>
+<td title='apps.pets.CartTest.LoggedinBullDogCarted()'><b>LoggedinBullDogCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.LoggedinParrotCart()'><b>LoggedinParrotCart</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.LoggedinPersianCatCarted()'><b>LoggedinPersianCatCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.LoggedinRattleSnakeCarted()'><b>LoggedinRattleSnakeCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.LoggedinSharkCart()'><b>LoggedinSharkCart</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.MaleAdultBulldogDesc()'><b>MaleAdultBulldogDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.FishTest.MaleGoldFishDesc()'><b>MaleGoldFishDesc</b><br>Test class: apps.pets.FishTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.FishTest@5852c06f</td></tr>
+<tr>
+<td title='apps.pets.CatsTest.MalePersianCatDesc()'><b>MalePersianCatDesc</b><br>Test class: apps.pets.CatsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CatsTest@62656be4</td></tr>
+<tr>
+<td title='apps.pets.FishTest.NonSpottedKoiDesc()'><b>NonSpottedKoiDesc</b><br>Test class: apps.pets.FishTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.FishTest@5852c06f</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order219319()'><b>Order219319</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order219350()'><b>Order219350</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order85940()'><b>Order85940</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order87422()'><b>Order87422</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order9072()'><b>Order9072</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order9073()'><b>Order9073</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order9074()'><b>Order9074</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order9078()'><b>Order9078</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.OrdersTest.Order9079()'><b>Order9079</b><br>Test class: apps.pets.OrdersTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.OrdersTest@34129c78</td></tr>
+<tr>
+<td title='apps.pets.CartTest.ParrotCarted()'><b>ParrotCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>17</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.PersianCatCarted()'><b>PersianCatCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.PoodleDesc()'><b>PoodleDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.CartTest.RattleSnakeCarted()'><b>RattleSnakeCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.ReptilesTest.RattlelessRattlesnakeDesc()'><b>RattlelessRattlesnakeDesc</b><br>Test class: apps.pets.ReptilesTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.ReptilesTest@17d919b6</td></tr>
+<tr>
+<td title='apps.pets.RegisterTest.RegisterAnAccount()'><b>RegisterAnAccount</b><br>Test class: apps.pets.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.RegisterTest@9cb8225</td></tr>
+<tr>
+<td title='apps.pets.BlogTest.Release()'><b>Release</b><br>Test class: apps.pets.BlogTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.BlogTest@376a0d86</td></tr>
+<tr>
+<td title='apps.pets.SearchTest.SearchInvaliditem()'><b>SearchInvaliditem</b><br>Test class: apps.pets.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.SearchTest@7d61eb55</td></tr>
+<tr>
+<td title='apps.pets.SearchTest.SearchSnake()'><b>SearchSnake</b><br>Test class: apps.pets.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.SearchTest@7d61eb55</td></tr>
+<tr>
+<td title='apps.pets.SearchTest.SearchValiditem()'><b>SearchValiditem</b><br>Test class: apps.pets.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>apps.pets.SearchTest@7d61eb55</td></tr>
+<tr>
+<td title='apps.pets.SearchTest.Searchmultiplepets()'><b>Searchmultiplepets</b><br>Test class: apps.pets.SearchTest</td>
+<td></td>
+<td>26</td>
+<td>apps.pets.SearchTest@7d61eb55</td></tr>
+<tr>
+<td title='apps.pets.FishTest.SharkDesc()'><b>SharkDesc</b><br>Test class: apps.pets.FishTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.FishTest@5852c06f</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.SpotlessDalmationDesc()'><b>SpotlessDalmationDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.DogsTest.SpottedDalmationDesc()'><b>SpottedDalmationDesc</b><br>Test class: apps.pets.DogsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.DogsTest@4149c063</td></tr>
+<tr>
+<td title='apps.pets.FishTest.SpottedKoiDesc()'><b>SpottedKoiDesc</b><br>Test class: apps.pets.FishTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.FishTest@5852c06f</td></tr>
+<tr>
+<td title='apps.pets.CatsTest.TailessManxCatDesc()'><b>TailessManxCatDesc</b><br>Test class: apps.pets.CatsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CatsTest@62656be4</td></tr>
+<tr>
+<td title='apps.pets.CartTest.TigerSharkCarted()'><b>TigerSharkCarted</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.AccountsTest.UpdateAccountPhoneNumber()'><b>UpdateAccountPhoneNumber</b><br>Test class: apps.pets.AccountsTest</td>
+<td></td>
+<td>18</td>
+<td>apps.pets.AccountsTest@38af9828</td></tr>
+<tr>
+<td title='apps.pets.CartTest.UpdateMaleBullDogQty()'><b>UpdateMaleBullDogQty</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>11</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.UpdateParrotQtyCart()'><b>UpdateParrotQtyCart</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>9</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.UpdatePersianCatQty()'><b>UpdatePersianCatQty</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>10</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.UpdateSharkQtyCart()'><b>UpdateSharkQtyCart</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.CartTest.UpdateVenomlessSnakeQty()'><b>UpdateVenomlessSnakeQty</b><br>Test class: apps.pets.CartTest</td>
+<td></td>
+<td>11</td>
+<td>apps.pets.CartTest@222a59e6</td></tr>
+<tr>
+<td title='apps.pets.AccountsTest.UpdatepassWord()'><b>UpdatepassWord</b><br>Test class: apps.pets.AccountsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.AccountsTest@38af9828</td></tr>
+<tr>
+<td title='apps.pets.ReptilesTest.VenomlessRattlesnakeDesc()'><b>VenomlessRattlesnakeDesc</b><br>Test class: apps.pets.ReptilesTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.ReptilesTest@17d919b6</td></tr>
+<tr>
+<td title='apps.pets.CatsTest.WithTailManxCatDesc()'><b>WithTailManxCatDesc</b><br>Test class: apps.pets.CatsTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.CatsTest@62656be4</td></tr>
+<tr>
+<td title='apps.pets.FishTest.largeAngelfishDesc()'><b>largeAngelfishDesc</b><br>Test class: apps.pets.FishTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.FishTest@5852c06f</td></tr>
+<tr>
+<td title='apps.pets.BlogTest.newtab()'><b>newtab</b><br>Test class: apps.pets.BlogTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.BlogTest@376a0d86</td></tr>
+<tr>
+<td title='apps.pets.SearchTest.searchMultiplePetsWithExcel()'><b>searchMultiplePetsWithExcel</b><br>Test class: apps.pets.SearchTest</td>
+<td></td>
+<td>27</td>
+<td>apps.pets.SearchTest@7d61eb55</td></tr>
+<tr>
+<td title='apps.pets.FishTest.smallAngelfishDesc()'><b>smallAngelfishDesc</b><br>Test class: apps.pets.FishTest</td>
+<td></td>
+<td>1</td>
+<td>apps.pets.FishTest@5852c06f</td></tr>
+</table><p>
+</body>
+</html>
