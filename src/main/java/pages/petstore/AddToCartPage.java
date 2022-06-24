@@ -36,6 +36,7 @@ public class AddToCartPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[3]/td[1]/input")
     private WebElement updatecartbutton;
 
+
     //remove
     @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[2]/td[8]/a")
     private WebElement removebutton;
@@ -75,6 +76,9 @@ public class AddToCartPage extends CommonAPI {
         click(checkoutbttn);
         LOG.info("Successfully able to click on checkout bttn");
     }
+
+    public boolean updatecartbuttonFunction(){ return updatecartbutton.isEnabled();}
+    public boolean removeButtonFunction(){ return removebutton.isEnabled();}
 
 
 }

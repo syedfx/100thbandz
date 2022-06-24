@@ -628,3 +628,1207 @@
 22:52:19.639 pages.petstore.AddToCartPage - Successfully able to update cart for total
 22:52:22.351 base.CommonAPI - Test Status: PASS
 
+23:18:57.604 pages.petstore.LandingPage - Click to enter was successful
+23:18:57.847 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:18:58.059 pages.petstore.FishPage - Selecting koi was successful
+23:18:58.373 pages.petstore.FishPage - Successfully was able to view Female GoldFish Description
+23:18:59.431 base.CommonAPI - Test Status: PASS
+
+23:19:01.574 pages.petstore.LandingPage - Click to enter was successful
+23:19:01.831 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:19:02.029 pages.petstore.FishPage - Selecting koi was successful
+23:19:02.395 pages.petstore.FishPage - Successfully was able to view Male GoldFish Description
+23:19:03.229 base.CommonAPI - Test Status: PASS
+
+23:19:05.552 pages.petstore.LandingPage - Click to enter was successful
+23:19:05.796 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:19:06.035 pages.petstore.FishPage - Selecting koi was successful
+23:19:06.341 pages.petstore.FishPage - Successfully was able to view Non Spotted Koi Description
+23:19:07.064 base.CommonAPI - Test Status: PASS
+
+23:19:09.192 pages.petstore.LandingPage - Click to enter was successful
+23:19:09.431 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:19:09.640 pages.petstore.FishPage - Selecting Shark was successful
+23:19:09.940 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+23:19:10.654 base.CommonAPI - Test Status: PASS
+
+23:19:12.759 pages.petstore.LandingPage - Click to enter was successful
+23:19:12.964 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:19:13.179 pages.petstore.FishPage - Selecting koi was successful
+23:19:13.467 pages.petstore.FishPage - Successfully was able to view Spotted Koi Description
+23:19:14.168 base.CommonAPI - Test Status: PASS
+
+23:19:16.414 pages.petstore.LandingPage - Click to enter was successful
+23:19:16.596 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:19:16.833 pages.petstore.FishPage - Selecting Angel Fish was sucessful
+23:19:17.126 pages.petstore.FishPage - Successfully was able to view Large AngelFish Description
+23:19:17.825 base.CommonAPI - Test Status: PASS
+
+23:19:19.911 pages.petstore.LandingPage - Click to enter was successful
+23:19:20.123 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:19:20.327 pages.petstore.FishPage - Selecting Angel Fish was sucessful
+23:19:20.659 pages.petstore.FishPage - Successfully was able to view SmallAngelFish Description
+23:19:21.360 base.CommonAPI - Test Status: PASS
+
+23:19:23.648 pages.petstore.LandingPage - Click to enter was successful
+23:19:23.841 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:24.048 pages.petstore.DogsPage - Selecting Chihuahua was successful
+23:19:24.380 pages.petstore.DogsPage - Successfully was able to view Adult Male Chohuahua
+23:19:25.075 base.CommonAPI - Test Status: PASS
+
+23:19:27.212 pages.petstore.LandingPage - Click to enter was successful
+23:19:27.410 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:27.631 pages.petstore.DogsPage - Selecting Labrador Retriever was successful
+23:19:27.918 pages.petstore.DogsPage - Successfully was able to view Rare Adult Female Labrador Retriever
+23:19:28.624 base.CommonAPI - Test Status: PASS
+
+23:19:30.819 pages.petstore.LandingPage - Click to enter was successful
+23:19:31.017 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:31.229 pages.petstore.DogsPage - Selecting Chihuahua was successful
+23:19:31.577 pages.petstore.DogsPage - Successfully was able to view Adult Male Chohuahua
+23:19:32.253 base.CommonAPI - Test Status: PASS
+
+23:19:34.402 pages.petstore.LandingPage - Click to enter was successful
+23:19:34.624 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:34.835 pages.petstore.DogsPage - Selecting Labrador Retriever was successful
+23:19:35.144 pages.petstore.DogsPage - Successfully was able to view Rare Adult Male Labrador Retriever
+23:19:35.875 base.CommonAPI - Test Status: PASS
+
+23:19:38.015 pages.petstore.LandingPage - Click to enter was successful
+23:19:38.237 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:38.480 pages.petstore.DogsPage - Selecting Angel Fish was successful
+23:19:38.869 pages.petstore.DogsPage - Successfully was able to view Female Puppy BullDog Description
+23:19:39.596 base.CommonAPI - Test Status: PASS
+
+23:19:41.792 pages.petstore.LandingPage - Click to enter was successful
+23:19:42.060 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:42.299 pages.petstore.DogsPage - Selecting GoldenRetriever was successful
+23:19:42.619 pages.petstore.DogsPage - Successfully was able to view Adult Female Golden Retriever
+23:19:43.321 base.CommonAPI - Test Status: PASS
+
+23:19:45.536 pages.petstore.LandingPage - Click to enter was successful
+23:19:45.778 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:46.008 pages.petstore.DogsPage - Selecting Angel Fish was successful
+23:19:46.339 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+23:19:47.081 base.CommonAPI - Test Status: PASS
+
+23:19:49.170 pages.petstore.LandingPage - Click to enter was successful
+23:19:49.377 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:49.570 pages.petstore.DogsPage - Selecting Poodle was successful
+23:19:49.878 pages.petstore.DogsPage - Successfully was able to view Male Puppy Poodle Description
+23:19:50.607 base.CommonAPI - Test Status: PASS
+
+23:19:52.714 pages.petstore.LandingPage - Click to enter was successful
+23:19:52.939 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:53.194 pages.petstore.DogsPage - Selecting Dalmation was successful
+23:19:53.491 pages.petstore.DogsPage - Successfully was able to view Spotless Male Puppy Dalmation Description
+23:19:54.229 base.CommonAPI - Test Status: PASS
+
+23:19:56.510 pages.petstore.LandingPage - Click to enter was successful
+23:19:56.711 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:19:56.929 pages.petstore.DogsPage - Selecting Dalmation was successful
+23:19:57.263 pages.petstore.DogsPage - Successfully was able to view Spotless Male Puppy Dalmation Description
+23:19:57.972 base.CommonAPI - Test Status: PASS
+
+23:20:00.112 pages.petstore.LandingPage - Click to enter was successful
+23:20:00.315 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:00.537 pages.petstore.SignInPage - Click on register now Link was successful
+23:20:00.593 pages.petstore.RegistrationPage - Successfully was able to be in username field
+23:20:00.658 pages.petstore.RegistrationPage - Successfully was able to be in password field
+23:20:00.704 pages.petstore.RegistrationPage - Successfully was able to be in Repeat PW field
+23:20:00.752 pages.petstore.RegistrationPage - Successfully was able to be in First Name field
+23:20:00.807 pages.petstore.RegistrationPage - Successfully was able to be in Last Name field
+23:20:00.872 pages.petstore.RegistrationPage - Successfully was able to be in email field
+23:20:00.929 pages.petstore.RegistrationPage - Successfully was able to be in Phone field
+23:20:00.985 pages.petstore.RegistrationPage - Successfully was able to be in address1 field
+23:20:01.041 pages.petstore.RegistrationPage - Successfully was able to be in address2 field
+23:20:01.092 pages.petstore.RegistrationPage - Successfully was able to be in city field
+23:20:01.147 pages.petstore.RegistrationPage - Successfully was able to be in state field
+23:20:01.202 pages.petstore.RegistrationPage - Successfully was able to be in zipcode field
+23:20:01.258 pages.petstore.RegistrationPage - Successfully was able to be in Country field
+23:20:06.848 pages.petstore.RegistrationPage - Successfully was to click on Save Account Information
+23:20:07.525 base.CommonAPI - Test Status: PASS
+
+23:20:09.679 pages.petstore.LandingPage - Click to enter was successful
+23:20:09.922 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:10.132 pages.petstore.SignInPage - Click on register now Link was successful
+23:20:10.177 pages.petstore.RegistrationPage - Successfully was able to be in username field
+23:20:10.222 pages.petstore.RegistrationPage - Successfully was able to be in password field
+23:20:10.264 pages.petstore.RegistrationPage - Successfully was able to be in Repeat PW field
+23:20:10.314 pages.petstore.RegistrationPage - Successfully was able to be in First Name field
+23:20:10.363 pages.petstore.RegistrationPage - Successfully was able to be in Last Name field
+23:20:10.422 pages.petstore.RegistrationPage - Successfully was able to be in email field
+23:20:10.483 pages.petstore.RegistrationPage - Successfully was able to be in Phone field
+23:20:10.539 pages.petstore.RegistrationPage - Successfully was able to be in address1 field
+23:20:10.595 pages.petstore.RegistrationPage - Successfully was able to be in address2 field
+23:20:10.654 pages.petstore.RegistrationPage - Successfully was able to be in city field
+23:20:10.702 pages.petstore.RegistrationPage - Successfully was able to be in state field
+23:20:10.747 pages.petstore.RegistrationPage - Successfully was able to be in zipcode field
+23:20:11.031 pages.petstore.RegistrationPage - Successfully was to click on Save Account Information
+23:20:11.692 base.CommonAPI - Test Status: PASS
+
+23:20:13.856 pages.petstore.LandingPage - Click to enter was successful
+23:20:14.060 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:14.281 pages.petstore.SignInPage - Click on register now Link was successful
+23:20:14.331 pages.petstore.RegistrationPage - Successfully was able to be in username field
+23:20:14.384 pages.petstore.RegistrationPage - Successfully was able to be in password field
+23:20:14.431 pages.petstore.RegistrationPage - Successfully was able to be in Repeat PW field
+23:20:14.480 pages.petstore.RegistrationPage - Successfully was able to be in First Name field
+23:20:14.537 pages.petstore.RegistrationPage - Successfully was able to be in Last Name field
+23:20:14.606 pages.petstore.RegistrationPage - Successfully was able to be in email field
+23:20:14.668 pages.petstore.RegistrationPage - Successfully was able to be in Phone field
+23:20:14.734 pages.petstore.RegistrationPage - Successfully was able to be in address1 field
+23:20:14.787 pages.petstore.RegistrationPage - Successfully was able to be in address2 field
+23:20:14.851 pages.petstore.RegistrationPage - Successfully was able to be in city field
+23:20:14.901 pages.petstore.RegistrationPage - Successfully was able to be in state field
+23:20:14.951 pages.petstore.RegistrationPage - Successfully was able to be in zipcode field
+23:20:15.265 pages.petstore.RegistrationPage - Successfully was to click on Save Account Information
+23:20:15.986 base.CommonAPI - Test Status: PASS
+
+23:20:18.229 pages.petstore.LandingPage - Click to enter was successful
+23:20:18.444 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:18.488 pages.petstore.SignInPage - successfully was able to type in username
+23:20:18.528 pages.petstore.SignInPage - successfully cleared pw field
+23:20:18.568 pages.petstore.SignInPage - successfully was able to type in password
+23:20:18.905 pages.petstore.SignInPage - Click on Login button was successful
+23:20:22.348 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:20:25.548 pages.petstore.BirdsPage - Selecting Amazon Parrot was successful
+23:20:25.962 pages.petstore.BirdsPage - Successfully was able to view Adult Male Amazon Parrot
+23:20:29.183 pages.petstore.BirdsPage - Successfully was able to add to cart Parrot
+23:20:29.398 pages.petstore.AddToCartPage - Successfully able to click on checkout bttn
+23:20:29.644 pages.petstore.CheckOutPage - Click on continue button was successful
+23:20:29.847 pages.petstore.CheckOutPage - Click on confirm order button was successful
+23:20:30.602 base.CommonAPI - Test Status: PASS
+
+23:20:32.812 pages.petstore.LandingPage - Click to enter was successful
+23:20:33.019 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:33.071 pages.petstore.SignInPage - successfully was able to type in username
+23:20:33.110 pages.petstore.SignInPage - successfully cleared pw field
+23:20:33.152 pages.petstore.SignInPage - successfully was able to type in password
+23:20:33.490 pages.petstore.SignInPage - Click on Login button was successful
+23:20:33.707 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:20:33.905 pages.petstore.BirdsPage - Selecting Amazon Parrot was successful
+23:20:34.160 pages.petstore.BirdsPage - Successfully was able to add to cart Parrot
+23:20:34.390 pages.petstore.AddToCartPage - Successfully able to click on checkout bttn
+23:20:34.497 pages.petstore.CheckOutPage - successfully was able to sort through dropdown
+23:20:34.724 pages.petstore.CheckOutPage - Click on continue button was successful
+23:20:34.971 pages.petstore.CheckOutPage - Click on confirm order button was successful
+23:20:35.663 base.CommonAPI - Test Status: PASS
+
+23:20:37.764 pages.petstore.LandingPage - Click to enter was successful
+23:20:37.989 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:38.035 pages.petstore.SignInPage - successfully was able to type in username
+23:20:38.072 pages.petstore.SignInPage - successfully cleared pw field
+23:20:38.107 pages.petstore.SignInPage - successfully was able to type in password
+23:20:38.441 pages.petstore.SignInPage - Click on Login button was successful
+23:20:38.653 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:20:38.884 pages.petstore.BirdsPage - Selecting Amazon Parrot was successful
+23:20:39.221 pages.petstore.BirdsPage - Successfully was able to view Adult Male Amazon Parrot
+23:20:43.443 base.CommonAPI - Test Status: PASS
+
+23:20:45.778 pages.petstore.LandingPage - Click to enter was successful
+23:20:46.027 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:46.076 pages.petstore.SignInPage - successfully was able to type in username
+23:20:46.115 pages.petstore.SignInPage - successfully cleared pw field
+23:20:46.154 pages.petstore.SignInPage - successfully was able to type in password
+23:20:46.489 pages.petstore.SignInPage - Click on Login button was successful
+23:20:46.730 pages.petstore.CatalogPage - Successfully able to access my account
+23:20:46.811 pages.petstore.MyAccountPage - Successfully able to click from listdown
+23:20:46.858 pages.petstore.MyAccountPage - Successfully able to select Birds from Favorite Category
+23:20:47.080 pages.petstore.MyAccountPage - Successfully able to Save Account information
+23:20:47.759 base.CommonAPI - Test Status: PASS
+
+23:20:49.902 pages.petstore.LandingPage - Click to enter was successful
+23:20:50.135 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:50.181 pages.petstore.SignInPage - successfully was able to type in username
+23:20:50.217 pages.petstore.SignInPage - successfully cleared pw field
+23:20:50.257 pages.petstore.SignInPage - successfully was able to type in password
+23:20:50.589 pages.petstore.SignInPage - Click on Login button was successful
+23:20:50.827 pages.petstore.CatalogPage - Successfully able to access my account
+23:20:50.907 pages.petstore.MyAccountPage - Successfully able to click from listdown
+23:20:50.939 pages.petstore.MyAccountPage - Successfully able to select Birds from Favorite Category
+23:20:51.177 pages.petstore.MyAccountPage - Successfully able to Save Account information
+23:20:51.884 base.CommonAPI - Test Status: PASS
+
+23:20:53.986 pages.petstore.LandingPage - Click to enter was successful
+23:20:54.223 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:54.401 pages.petstore.SignInPage - successfully was able to type in username
+23:20:54.437 pages.petstore.SignInPage - successfully cleared pw field
+23:20:54.482 pages.petstore.SignInPage - successfully was able to type in password
+23:20:54.822 pages.petstore.SignInPage - Click on Login button was successful
+23:20:55.056 pages.petstore.CatalogPage - Successfully able to access my account
+23:20:55.128 pages.petstore.MyAccountPage - Successfully able to click from listdown
+23:20:55.170 pages.petstore.MyAccountPage - Successfully able to select Dog from Favorite Category
+23:20:55.396 pages.petstore.MyAccountPage - Successfully able to Save Account information
+23:20:56.090 base.CommonAPI - Test Status: PASS
+
+23:20:58.304 pages.petstore.LandingPage - Click to enter was successful
+23:20:58.496 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:20:58.540 pages.petstore.SignInPage - successfully was able to type in username
+23:20:58.585 pages.petstore.SignInPage - successfully cleared pw field
+23:20:58.626 pages.petstore.SignInPage - successfully was able to type in password
+23:20:58.941 pages.petstore.SignInPage - Click on Login button was successful
+23:20:59.147 pages.petstore.CatalogPage - Successfully able to access my account
+23:20:59.197 pages.petstore.MyAccountPage - successfully was able to sort through dropdown
+23:20:59.225 pages.petstore.MyAccountPage - Successfully able to select Fish from Favorite Category
+23:20:59.459 pages.petstore.MyAccountPage - Successfully able to Save Account information
+23:21:00.141 base.CommonAPI - Test Status: PASS
+
+23:21:02.308 pages.petstore.LandingPage - Click to enter was successful
+23:21:02.526 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:21:02.577 pages.petstore.SignInPage - successfully was able to type in username
+23:21:02.620 pages.petstore.SignInPage - successfully cleared pw field
+23:21:02.662 pages.petstore.SignInPage - successfully was able to type in password
+23:21:02.977 pages.petstore.SignInPage - Click on Login button was successful
+23:21:03.197 pages.petstore.CatalogPage - Successfully able to access my account
+23:21:03.263 pages.petstore.MyAccountPage - Successfully able to click from listdown
+23:21:03.297 pages.petstore.MyAccountPage - Successfully able to select Reptiles from Favorite Category
+23:21:03.522 pages.petstore.MyAccountPage - Successfully able to Save Account information
+23:21:04.206 base.CommonAPI - Test Status: PASS
+
+23:21:06.414 pages.petstore.LandingPage - Click to enter was successful
+23:21:06.639 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:21:06.688 pages.petstore.SignInPage - successfully was able to type in username
+23:21:06.729 pages.petstore.SignInPage - successfully cleared pw field
+23:21:06.776 pages.petstore.SignInPage - successfully was able to type in password
+23:21:07.107 pages.petstore.SignInPage - Click on Login button was successful
+23:21:10.555 pages.petstore.CatalogPage - Successfully able to access my account
+23:21:13.617 pages.petstore.MyAccountPage - successfully clicked in phone field
+23:21:13.658 pages.petstore.MyAccountPage - successfully cleared phone field
+23:21:18.719 pages.petstore.MyAccountPage - Successfully able to update phone number
+23:21:24.209 pages.petstore.MyAccountPage - Successfully able to Save Account information
+23:21:24.902 base.CommonAPI - Test Status: PASS
+
+23:21:27.039 pages.petstore.LandingPage - Click to enter was successful
+23:21:27.250 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:21:27.289 pages.petstore.SignInPage - successfully was able to type in username
+23:21:27.325 pages.petstore.SignInPage - successfully cleared pw field
+23:21:27.359 pages.petstore.SignInPage - successfully was able to type in password
+23:21:27.667 pages.petstore.SignInPage - Click on Login button was successful
+23:21:27.892 pages.petstore.CatalogPage - Successfully able to access my account
+23:21:27.934 pages.petstore.MyAccountPage - successfully cleared email field
+23:21:27.987 pages.petstore.MyAccountPage - Successfully able to update email
+23:21:28.203 pages.petstore.MyAccountPage - Successfully able to Save Account information
+23:21:28.894 base.CommonAPI - Test Status: PASS
+
+23:21:30.977 pages.petstore.LandingPage - Click to enter was successful
+23:21:31.983 pages.petstore.CatalogPage - Click on Blog link was successful
+23:21:32.518 pages.petstore.CatalogPage - click to enter on Release link was succesful
+23:21:33.297 base.CommonAPI - Test Status: PASS
+
+23:21:35.383 pages.petstore.LandingPage - Click to enter was successful
+23:21:36.290 pages.petstore.CatalogPage - Click on Blog link was successful
+23:21:36.381 pages.petstore.CatalogPage - Click on email button was successful
+23:21:37.072 base.CommonAPI - Test Status: PASS
+
+23:21:39.100 pages.petstore.LandingPage - Click to enter was successful
+23:21:39.340 pages.petstore.CatalogPage - Click on Cats Link was successful
+23:21:39.573 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+23:21:39.871 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+23:21:40.566 base.CommonAPI - Test Status: PASS
+
+23:21:42.674 pages.petstore.LandingPage - Click to enter was successful
+23:21:42.920 pages.petstore.CatalogPage - Click on Cats Link was successful
+23:21:43.118 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+23:21:43.404 pages.petstore.CatsPage - Successfully was able to click Adult male persian cat
+23:21:44.110 base.CommonAPI - Test Status: PASS
+
+23:21:46.276 pages.petstore.LandingPage - Click to enter was successful
+23:21:46.589 pages.petstore.CatalogPage - Click on Cats Link was successful
+23:21:46.852 pages.petstore.CatsPage - Selecting Manx Cat was successful
+23:21:47.264 pages.petstore.CatsPage - Successfully was able to view Tailess Manx Cat
+23:21:47.977 base.CommonAPI - Test Status: PASS
+
+23:21:50.170 pages.petstore.LandingPage - Click to enter was successful
+23:21:50.375 pages.petstore.CatalogPage - Click on Cats Link was successful
+23:21:50.569 pages.petstore.CatsPage - Selecting Manx Cat was successful
+23:21:50.875 pages.petstore.CatsPage - Successfully was able to click on with tail Manx Cat
+23:21:51.562 base.CommonAPI - Test Status: PASS
+
+23:21:53.630 pages.petstore.LandingPage - Click to enter was successful
+23:21:53.829 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+23:21:54.030 pages.petstore.ReptilesPage - Selecting Iguana was successful
+23:21:54.332 pages.petstore.ReptilesPage - Successfully was able to view Green Iguana
+23:21:55.048 base.CommonAPI - Test Status: PASS
+
+23:21:57.437 pages.petstore.LandingPage - Click to enter was successful
+23:21:57.642 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+23:21:57.845 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+23:21:58.168 pages.petstore.ReptilesPage - Successfully was able to click on rattleless Rattlesnake
+23:21:58.852 base.CommonAPI - Test Status: PASS
+
+23:22:00.966 pages.petstore.LandingPage - Click to enter was successful
+23:22:01.179 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+23:22:01.370 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+23:22:01.667 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+23:22:02.361 base.CommonAPI - Test Status: PASS
+
+23:22:04.488 pages.petstore.LandingPage - Click to enter was successful
+23:22:04.703 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:22:04.918 pages.petstore.BirdsPage - Selecting Amazon Parrot was successful
+23:22:05.238 pages.petstore.BirdsPage - Successfully was able to view Adult Male Amazon Parrot
+23:22:05.923 base.CommonAPI - Test Status: PASS
+
+23:22:08.008 pages.petstore.LandingPage - Click to enter was successful
+23:22:08.200 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:22:08.394 pages.petstore.BirdsPage - Selecting Finch was successful
+23:22:08.711 pages.petstore.BirdsPage - Successfully Male Adult Finch was successful
+23:22:09.397 base.CommonAPI - Test Status: PASS
+
+23:22:11.481 pages.petstore.LandingPage - Click to enter was successful
+23:22:11.707 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:11.757 pages.petstore.SignInPage - successfully was able to type in username
+23:22:11.799 pages.petstore.SignInPage - successfully cleared pw field
+23:22:11.832 pages.petstore.SignInPage - successfully was able to type in password
+23:22:12.188 pages.petstore.SignInPage - Click on Login button was successful
+23:22:12.437 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:12.816 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:13.024 pages.petstore.MyOrdersPage - successfully viewed OrderID 219319 details
+23:22:13.724 base.CommonAPI - Test Status: PASS
+
+23:22:15.756 pages.petstore.LandingPage - Click to enter was successful
+23:22:15.986 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:16.028 pages.petstore.SignInPage - successfully was able to type in username
+23:22:16.065 pages.petstore.SignInPage - successfully cleared pw field
+23:22:16.104 pages.petstore.SignInPage - successfully was able to type in password
+23:22:16.410 pages.petstore.SignInPage - Click on Login button was successful
+23:22:16.614 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:16.871 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:17.070 pages.petstore.MyOrdersPage - successfully viewed OrderID 219350 details
+23:22:17.760 base.CommonAPI - Test Status: PASS
+
+23:22:19.949 pages.petstore.LandingPage - Click to enter was successful
+23:22:20.150 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:20.196 pages.petstore.SignInPage - successfully was able to type in username
+23:22:20.236 pages.petstore.SignInPage - successfully cleared pw field
+23:22:20.277 pages.petstore.SignInPage - successfully was able to type in password
+23:22:20.595 pages.petstore.SignInPage - Click on Login button was successful
+23:22:20.820 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:21.089 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:21.308 pages.petstore.MyOrdersPage - successfully viewed OrderID85940 details
+23:22:21.991 base.CommonAPI - Test Status: PASS
+
+23:22:24.088 pages.petstore.LandingPage - Click to enter was successful
+23:22:24.296 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:24.338 pages.petstore.SignInPage - successfully was able to type in username
+23:22:24.376 pages.petstore.SignInPage - successfully cleared pw field
+23:22:24.415 pages.petstore.SignInPage - successfully was able to type in password
+23:22:24.716 pages.petstore.SignInPage - Click on Login button was successful
+23:22:24.932 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:25.146 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:25.355 pages.petstore.MyOrdersPage - successfully viewed OrderID87422 details
+23:22:26.057 base.CommonAPI - Test Status: PASS
+
+23:22:28.270 pages.petstore.LandingPage - Click to enter was successful
+23:22:28.494 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:28.538 pages.petstore.SignInPage - successfully was able to type in username
+23:22:28.578 pages.petstore.SignInPage - successfully cleared pw field
+23:22:28.623 pages.petstore.SignInPage - successfully was able to type in password
+23:22:28.946 pages.petstore.SignInPage - Click on Login button was successful
+23:22:29.195 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:29.422 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:29.615 pages.petstore.MyOrdersPage - successfully viewed OrderID 9072 details
+23:22:30.312 base.CommonAPI - Test Status: PASS
+
+23:22:32.465 pages.petstore.LandingPage - Click to enter was successful
+23:22:32.685 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:32.740 pages.petstore.SignInPage - successfully was able to type in username
+23:22:32.784 pages.petstore.SignInPage - successfully cleared pw field
+23:22:32.822 pages.petstore.SignInPage - successfully was able to type in password
+23:22:33.185 pages.petstore.SignInPage - Click on Login button was successful
+23:22:33.427 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:33.658 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:33.877 pages.petstore.MyOrdersPage - successfully viewed OrderID9073 details 
+23:22:34.577 base.CommonAPI - Test Status: PASS
+
+23:22:36.661 pages.petstore.LandingPage - Click to enter was successful
+23:22:36.864 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:36.906 pages.petstore.SignInPage - successfully was able to type in username
+23:22:36.942 pages.petstore.SignInPage - successfully cleared pw field
+23:22:36.975 pages.petstore.SignInPage - successfully was able to type in password
+23:22:37.276 pages.petstore.SignInPage - Click on Login button was successful
+23:22:37.494 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:37.755 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:37.975 pages.petstore.MyOrdersPage - successfully viewed OrderID9074 details
+23:22:38.676 base.CommonAPI - Test Status: PASS
+
+23:22:40.766 pages.petstore.LandingPage - Click to enter was successful
+23:22:40.960 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:41.139 pages.petstore.SignInPage - successfully was able to type in username
+23:22:41.172 pages.petstore.SignInPage - successfully cleared pw field
+23:22:41.214 pages.petstore.SignInPage - successfully was able to type in password
+23:22:41.562 pages.petstore.SignInPage - Click on Login button was successful
+23:22:41.795 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:42.038 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:42.234 pages.petstore.MyOrdersPage - successfully viewed OrderID9078 details
+23:22:42.925 base.CommonAPI - Test Status: PASS
+
+23:22:44.998 pages.petstore.LandingPage - Click to enter was successful
+23:22:45.205 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:22:45.250 pages.petstore.SignInPage - successfully was able to type in username
+23:22:45.287 pages.petstore.SignInPage - successfully cleared pw field
+23:22:45.320 pages.petstore.SignInPage - successfully was able to type in password
+23:22:45.623 pages.petstore.SignInPage - Click on Login button was successful
+23:22:45.865 pages.petstore.CatalogPage - Successfully able to access my account
+23:22:46.149 pages.petstore.MyAccountPage - Successfully able to to click on My Orders
+23:22:46.359 pages.petstore.MyOrdersPage - successfully viewed OrderID9079 details
+23:22:47.052 base.CommonAPI - Test Status: PASS
+
+23:22:49.147 pages.petstore.LandingPage - Click to enter was successful
+23:22:49.202 pages.petstore.CatalogPage - Successfully able to type in search field
+23:22:51.402 pages.petstore.CatalogPage - Successfully able to click on Search
+23:22:52.126 base.CommonAPI - Test Status: PASS
+
+23:22:54.217 pages.petstore.LandingPage - Click to enter was successful
+23:22:54.269 pages.petstore.CatalogPage - Successfully able to type in search field
+23:22:56.708 pages.petstore.CatalogPage - Successfully able to click on Search
+23:22:57.425 base.CommonAPI - Test Status: PASS
+
+23:22:59.505 pages.petstore.LandingPage - Click to enter was successful
+23:22:59.566 pages.petstore.CatalogPage - Successfully able to type in search field
+23:23:02.010 pages.petstore.CatalogPage - Successfully able to click on Search
+23:23:02.723 base.CommonAPI - Test Status: PASS
+
+23:23:04.842 pages.petstore.LandingPage - Click to enter was successful
+23:23:04.896 pages.petstore.CatalogPage - Successfully able to type in search field
+23:23:10.481 pages.petstore.CatalogPage - Successfully able to click on Search
+23:23:15.681 pages.petstore.CatalogPage - Click on Return to main menu was successful
+23:23:20.776 pages.petstore.CatalogPage - successfully was able to clear search field
+23:23:24.866 pages.petstore.CatalogPage - Successfully able to type in search field
+23:23:30.541 pages.petstore.CatalogPage - Successfully able to click on Search
+23:23:31.265 base.CommonAPI - Test Status: PASS
+
+23:23:33.596 pages.petstore.LandingPage - Click to enter was successful
+23:23:34.565 pages.petstore.CatalogPage - Successfully able to type Goldfish and search
+23:23:37.621 pages.petstore.CatalogPage - successfully was able to clear search field
+23:23:41.155 pages.petstore.CatalogPage - Successfully able to type Shark and search
+23:23:44.240 pages.petstore.CatalogPage - successfully was able to clear search field
+23:23:47.922 pages.petstore.CatalogPage - Successfully able to type Bulldog and search
+23:23:51.004 pages.petstore.CatalogPage - successfully was able to clear search field
+23:23:54.474 pages.petstore.CatalogPage - Successfully able to type Rattlesnake and search
+23:23:57.523 pages.petstore.CatalogPage - successfully was able to clear search field
+23:24:01.234 base.CommonAPI - Test Status: PASS
+
+23:24:03.412 pages.petstore.LandingPage - Click to enter was successful
+23:24:03.622 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:24:03.871 pages.petstore.DogsPage - Selecting Angel Fish was successful
+23:24:04.164 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+23:24:04.348 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+23:24:05.025 base.CommonAPI - Test Status: PASS
+
+23:24:07.153 pages.petstore.LandingPage - Click to enter was successful
+23:24:07.362 pages.petstore.CatalogPage - Successfully able to click on cart button
+23:24:08.020 base.CommonAPI - Test Status: PASS
+
+23:24:10.107 pages.petstore.LandingPage - Click to enter was successful
+23:24:10.327 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:24:10.373 pages.petstore.SignInPage - successfully was able to type in username
+23:24:10.413 pages.petstore.SignInPage - successfully cleared pw field
+23:24:10.457 pages.petstore.SignInPage - successfully was able to type in password
+23:24:10.766 pages.petstore.SignInPage - Click on Login button was successful
+23:24:11.004 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:24:11.230 pages.petstore.DogsPage - Selecting Angel Fish was successful
+23:24:11.516 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+23:24:11.782 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+23:24:12.448 base.CommonAPI - Test Status: PASS
+
+23:24:14.733 pages.petstore.LandingPage - Click to enter was successful
+23:24:14.946 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:24:14.989 pages.petstore.SignInPage - successfully was able to type in username
+23:24:15.031 pages.petstore.SignInPage - successfully cleared pw field
+23:24:15.072 pages.petstore.SignInPage - successfully was able to type in password
+23:24:15.411 pages.petstore.SignInPage - Click on Login button was successful
+23:24:15.640 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:24:15.897 pages.petstore.BirdsPage - Selecting Amazon Parrot was successful
+23:24:16.210 pages.petstore.BirdsPage - Successfully was able to view Adult Male Amazon Parrot
+23:24:16.414 pages.petstore.BirdsPage - Successfully was able to add to cart Parrot
+23:24:17.102 base.CommonAPI - Test Status: PASS
+
+23:24:19.390 pages.petstore.LandingPage - Click to enter was successful
+23:24:19.593 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:24:19.643 pages.petstore.SignInPage - successfully was able to type in username
+23:24:19.681 pages.petstore.SignInPage - successfully cleared pw field
+23:24:19.722 pages.petstore.SignInPage - successfully was able to type in password
+23:24:20.050 pages.petstore.SignInPage - Click on Login button was successful
+23:24:20.268 pages.petstore.CatalogPage - Click on Cats Link was successful
+23:24:20.530 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+23:24:20.845 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+23:24:21.067 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+23:24:21.754 base.CommonAPI - Test Status: PASS
+
+23:24:23.916 pages.petstore.LandingPage - Click to enter was successful
+23:24:24.143 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:24:24.189 pages.petstore.SignInPage - successfully was able to type in username
+23:24:24.226 pages.petstore.SignInPage - successfully cleared pw field
+23:24:24.269 pages.petstore.SignInPage - successfully was able to type in password
+23:24:24.582 pages.petstore.SignInPage - Click on Login button was successful
+23:24:24.782 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+23:24:24.997 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+23:24:25.321 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+23:24:25.533 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+23:24:26.219 base.CommonAPI - Test Status: PASS
+
+23:24:28.480 pages.petstore.LandingPage - Click to enter was successful
+23:24:28.659 pages.petstore.CatalogPage - Click on Sign in Link was successful
+23:24:28.702 pages.petstore.SignInPage - successfully was able to type in username
+23:24:28.740 pages.petstore.SignInPage - successfully cleared pw field
+23:24:28.779 pages.petstore.SignInPage - successfully was able to type in password
+23:24:29.111 pages.petstore.SignInPage - Click on Login button was successful
+23:24:29.303 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:24:29.511 pages.petstore.FishPage - Selecting Shark was successful
+23:24:29.830 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+23:24:30.049 pages.petstore.FishPage - Successfully Able to click on ATC Button
+23:24:30.714 base.CommonAPI - Test Status: PASS
+
+23:24:32.874 pages.petstore.LandingPage - Click to enter was successful
+23:24:33.148 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:24:33.325 pages.petstore.BirdsPage - Selecting Amazon Parrot was successful
+23:24:38.891 pages.petstore.BirdsPage - Successfully was able to view Adult Male Amazon Parrot
+23:24:49.374 pages.petstore.BirdsPage - Successfully was able to add to cart Parrot
+23:24:50.061 base.CommonAPI - Test Status: PASS
+
+23:24:52.193 pages.petstore.LandingPage - Click to enter was successful
+23:24:52.389 pages.petstore.CatalogPage - Click on Cats Link was successful
+23:24:52.625 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+23:24:52.940 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+23:24:53.127 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+23:24:53.822 base.CommonAPI - Test Status: PASS
+
+23:24:55.939 pages.petstore.LandingPage - Click to enter was successful
+23:24:56.125 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+23:24:56.342 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+23:24:56.625 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+23:24:56.840 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+23:24:57.515 base.CommonAPI - Test Status: PASS
+
+23:24:59.640 pages.petstore.LandingPage - Click to enter was successful
+23:24:59.861 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:25:00.080 pages.petstore.FishPage - Selecting Shark was successful
+23:25:00.376 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+23:25:00.609 pages.petstore.FishPage - Successfully Able to click on ATC Button
+23:25:01.276 base.CommonAPI - Test Status: PASS
+
+23:25:03.380 pages.petstore.LandingPage - Click to enter was successful
+23:25:03.581 pages.petstore.CatalogPage - Click on Dogs Link was successful
+23:25:03.795 pages.petstore.DogsPage - Selecting Angel Fish was successful
+23:25:04.133 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+23:25:04.329 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+23:25:07.375 pages.petstore.AddToCartPage - successfully was able to clear search field
+23:25:10.418 pages.petstore.AddToCartPage - Successfully able to update quantity
+23:25:12.867 pages.petstore.AddToCartPage - Successfully able to update cart for total
+23:25:15.587 base.CommonAPI - Test Status: PASS
+
+23:25:17.779 pages.petstore.LandingPage - Click to enter was successful
+23:25:17.992 pages.petstore.CatalogPage - Click on Bird Link was successful
+23:25:18.169 pages.petstore.BirdsPage - Selecting Amazon Parrot was successful
+23:25:18.480 pages.petstore.BirdsPage - Successfully was able to view Adult Male Amazon Parrot
+23:25:18.709 pages.petstore.BirdsPage - Successfully was able to add to cart Parrot
+23:25:20.749 pages.petstore.AddToCartPage - successfully was able to clear search field
+23:25:22.800 pages.petstore.AddToCartPage - Successfully able to update quantity
+23:25:25.292 pages.petstore.AddToCartPage - Successfully able to update cart for total
+23:25:28.010 base.CommonAPI - Test Status: PASS
+
+23:25:30.125 pages.petstore.LandingPage - Click to enter was successful
+23:25:30.334 pages.petstore.CatalogPage - Click on Cats Link was successful
+23:25:30.538 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+23:25:30.841 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+23:25:31.092 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+23:25:33.136 pages.petstore.AddToCartPage - successfully was able to clear search field
+23:25:35.181 pages.petstore.AddToCartPage - Successfully able to update quantity
+23:25:37.938 pages.petstore.AddToCartPage - Successfully able to update cart for total
+23:25:40.643 base.CommonAPI - Test Status: PASS
+
+23:25:42.880 pages.petstore.LandingPage - Click to enter was successful
+23:25:43.067 pages.petstore.CatalogPage - Click on Fish Link was successful
+23:25:43.282 pages.petstore.FishPage - Selecting Shark was successful
+23:25:43.571 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+23:25:43.757 pages.petstore.FishPage - Successfully Able to click on ATC Button
+23:25:43.805 pages.petstore.AddToCartPage - successfully was able to clear search field
+23:25:43.843 pages.petstore.AddToCartPage - Successfully able to update quantity
+23:25:44.051 pages.petstore.AddToCartPage - Successfully able to update cart for total
+23:25:44.723 base.CommonAPI - Test Status: PASS
+
+23:25:46.834 pages.petstore.LandingPage - Click to enter was successful
+23:25:47.066 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+23:25:47.254 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+23:25:47.553 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+23:25:47.765 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+23:25:50.806 pages.petstore.AddToCartPage - successfully was able to clear search field
+23:25:53.851 pages.petstore.AddToCartPage - Successfully able to update quantity
+23:25:56.286 pages.petstore.AddToCartPage - Successfully able to update cart for total
+23:25:58.993 base.CommonAPI - Test Status: PASS
+
+13:46:49.029 pages.petstore.LandingPage - Click to enter was successful
+13:46:49.233 pages.petstore.CatalogPage - Click on Sign in Link was successful
+13:46:49.278 pages.petstore.SignInPage - successfully was able to type in username
+13:46:49.318 pages.petstore.SignInPage - successfully cleared pw field
+13:46:49.360 pages.petstore.SignInPage - successfully was able to type in password
+13:46:49.666 pages.petstore.SignInPage - Click on Login button was successful
+13:47:15.593 base.CommonAPI - Test Status: PASS
+
+13:47:31.885 pages.petstore.LandingPage - Click to enter was successful
+13:47:32.230 pages.petstore.CatalogPage - Click on Sign in Link was successful
+13:47:32.269 pages.petstore.SignInPage - successfully was able to type in username
+13:47:32.304 pages.petstore.SignInPage - successfully cleared pw field
+13:47:32.342 pages.petstore.SignInPage - successfully was able to type in password
+13:47:32.642 pages.petstore.SignInPage - Click on Login button was successful
+13:47:58.201 base.CommonAPI - Screenshot captured
+13:47:58.870 base.CommonAPI - Test Status: PASS
+
+13:48:21.083 pages.petstore.LandingPage - Click to enter was successful
+13:48:21.274 pages.petstore.CatalogPage - Click on Sign in Link was successful
+13:48:21.327 pages.petstore.SignInPage - successfully was able to type in username
+13:48:21.365 pages.petstore.SignInPage - successfully cleared pw field
+13:48:21.402 pages.petstore.SignInPage - successfully was able to type in password
+13:48:21.719 pages.petstore.SignInPage - Click on Login button was successful
+13:48:22.651 base.CommonAPI - Test Status: PASS
+
+13:51:21.815 pages.petstore.LandingPage - Click to enter was successful
+13:51:21.992 pages.petstore.CatalogPage - Click on Sign in Link was successful
+13:51:22.038 pages.petstore.SignInPage - successfully was able to type in username
+13:51:22.077 pages.petstore.SignInPage - successfully cleared pw field
+13:51:22.114 pages.petstore.SignInPage - successfully was able to type in password
+13:51:22.423 pages.petstore.SignInPage - Click on Login button was successful
+13:51:23.391 base.CommonAPI - Test Status: PASS
+
+13:54:14.034 pages.petstore.LandingPage - Click to enter was successful
+13:54:14.433 pages.petstore.CatalogPage - Click on Sign in Link was successful
+13:54:14.517 pages.petstore.SignInPage - successfully was able to type in username
+13:54:14.575 pages.petstore.SignInPage - successfully cleared pw field
+13:54:14.642 pages.petstore.SignInPage - successfully was able to type in password
+13:54:15.100 pages.petstore.SignInPage - Click on Login button was successful
+13:54:16.593 base.CommonAPI - Test Status: PASS
+
+13:54:19.399 pages.petstore.LandingPage - Click to enter was successful
+13:54:20.197 pages.petstore.CatalogPage - Click on Sign in Link was successful
+13:54:20.329 pages.petstore.SignInPage - successfully was able to type in username
+13:54:20.445 pages.petstore.SignInPage - successfully cleared pw field
+13:54:20.593 pages.petstore.SignInPage - successfully was able to type in password
+13:54:21.155 pages.petstore.SignInPage - Click on Login button was successful
+13:54:41.953 base.CommonAPI - Test Status: PASS
+
+14:04:59.421 pages.petstore.LandingPage - Click to enter was successful
+14:04:59.734 pages.petstore.CatalogPage - Click on Sign in Link was successful
+14:04:59.803 pages.petstore.SignInPage - successfully was able to type in username
+14:04:59.858 pages.petstore.SignInPage - successfully cleared pw field
+14:04:59.913 pages.petstore.SignInPage - successfully was able to type in password
+14:05:00.426 pages.petstore.SignInPage - Click on Login button was successful
+14:05:01.930 base.CommonAPI - Test Status: PASS
+
+14:05:04.961 pages.petstore.LandingPage - Click to enter was successful
+14:05:05.360 pages.petstore.CatalogPage - Click on Sign in Link was successful
+14:05:05.530 pages.petstore.SignInPage - successfully was able to type in username
+14:05:05.583 pages.petstore.SignInPage - successfully cleared pw field
+14:05:05.640 pages.petstore.SignInPage - successfully was able to type in password
+14:05:06.035 pages.petstore.SignInPage - Click on Login button was successful
+14:05:06.589 pages.petstore.CatalogPage - Successfully able to logout
+14:05:07.393 base.CommonAPI - Test Status: PASS
+
+14:08:17.938 pages.petstore.LandingPage - Click to enter was successful
+14:08:18.329 pages.petstore.CatalogPage - Click on Sign in Link was successful
+14:08:18.505 pages.petstore.SignInPage - successfully was able to type in username
+14:08:18.658 pages.petstore.SignInPage - successfully cleared pw field
+14:08:18.826 pages.petstore.SignInPage - successfully was able to type in password
+14:08:19.201 pages.petstore.SignInPage - Click on Login button was successful
+14:08:20.830 base.CommonAPI - Test Status: PASS
+
+14:17:55.529 pages.petstore.LandingPage - Click to enter was successful
+14:17:55.925 pages.petstore.CatalogPage - Successfully able to click on cart button
+14:17:57.422 base.CommonAPI - Test Status: PASS
+
+14:18:49.739 pages.petstore.LandingPage - Click to enter was successful
+14:18:50.133 pages.petstore.CatalogPage - Click on Fish Link was successful
+14:18:50.504 pages.petstore.FishPage - Selecting Shark was successful
+14:18:50.965 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+14:18:51.390 pages.petstore.FishPage - Successfully Able to click on ATC Button
+14:19:23.045 base.CommonAPI - Test Status: PASS
+
+14:32:32.512 pages.petstore.LandingPage - Click to enter was successful
+14:32:32.861 pages.petstore.CatalogPage - Click on Fish Link was successful
+14:32:33.304 pages.petstore.FishPage - Selecting Shark was successful
+14:32:33.718 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+14:32:34.154 pages.petstore.FishPage - Successfully Able to click on ATC Button
+14:32:53.368 base.CommonAPI - Test Status: PASS
+
+14:33:04.527 pages.petstore.LandingPage - Click to enter was successful
+14:33:04.928 pages.petstore.CatalogPage - Click on Fish Link was successful
+14:33:05.382 pages.petstore.FishPage - Selecting Shark was successful
+14:33:05.778 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+14:33:06.145 pages.petstore.FishPage - Successfully Able to click on ATC Button
+14:33:32.275 base.CommonAPI - Screenshot captured
+14:33:32.999 base.CommonAPI - Test Status: PASS
+
+14:35:23.016 pages.petstore.LandingPage - Click to enter was successful
+14:35:23.506 pages.petstore.CatalogPage - Click on Fish Link was successful
+14:35:26.840 pages.petstore.FishPage - Selecting Shark was successful
+14:35:31.621 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+14:35:37.123 pages.petstore.FishPage - Successfully Able to click on ATC Button
+14:35:41.626 base.CommonAPI - Test Status: PASS
+
+14:45:14.547 pages.petstore.LandingPage - Click to enter was successful
+14:45:14.981 pages.petstore.CatalogPage - Click on Fish Link was successful
+14:45:18.284 pages.petstore.FishPage - Selecting Shark was successful
+14:45:22.884 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+14:45:28.528 pages.petstore.FishPage - Successfully Able to click on ATC Button
+14:45:29.922 base.CommonAPI - Test Status: PASS
+
+14:50:55.090 pages.petstore.LandingPage - Click to enter was successful
+14:50:55.470 pages.petstore.CatalogPage - Click on Fish Link was successful
+14:50:55.757 pages.petstore.FishPage - Selecting Shark was successful
+14:50:56.227 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+14:50:56.983 pages.petstore.FishPage - Successfully Able to click on ATC Button
+14:50:57.072 pages.petstore.AddToCartPage - successfully was able to clear search field
+14:50:57.171 pages.petstore.AddToCartPage - Successfully able to update quantity
+14:50:57.508 pages.petstore.AddToCartPage - Successfully able to update cart for total
+14:50:58.894 base.CommonAPI - Test Status: PASS
+
+14:59:51.600 pages.petstore.LandingPage - Click to enter was successful
+14:59:53.494 pages.petstore.CatalogPage - Click on Blog link was successful
+14:59:54.169 pages.petstore.CatalogPage - click to enter on Release link was succesful
+14:59:55.689 base.CommonAPI - Test Status: PASS
+
+14:59:58.076 pages.petstore.LandingPage - Click to enter was successful
+14:59:59.506 pages.petstore.CatalogPage - Click on Blog link was successful
+14:59:59.643 pages.petstore.CatalogPage - Click on email button was successful
+15:00:00.481 base.CommonAPI - Test Status: PASS
+
+15:07:28.353 pages.petstore.LandingPage - Click to enter was successful
+15:07:28.619 pages.petstore.CatalogPage - Successfully able to type in search field
+15:07:31.072 pages.petstore.CatalogPage - Successfully able to click on Search
+15:07:32.563 base.CommonAPI - Test Status: PASS
+
+15:07:35.032 pages.petstore.LandingPage - Click to enter was successful
+15:07:35.278 pages.petstore.CatalogPage - Successfully able to type in search field
+15:07:37.879 pages.petstore.CatalogPage - Successfully able to click on Search
+15:07:38.759 base.CommonAPI - Test Status: PASS
+
+15:07:41.262 pages.petstore.LandingPage - Click to enter was successful
+15:07:41.517 pages.petstore.CatalogPage - Successfully able to type in search field
+15:07:44.214 pages.petstore.CatalogPage - Successfully able to click on Search
+15:07:45.202 base.CommonAPI - Test Status: PASS
+
+15:07:48.272 pages.petstore.LandingPage - Click to enter was successful
+15:07:48.386 pages.petstore.CatalogPage - Successfully able to type in search field
+15:07:53.864 pages.petstore.CatalogPage - Successfully able to click on Search
+15:07:59.090 pages.petstore.CatalogPage - Click on Return to main menu was successful
+15:08:04.164 pages.petstore.CatalogPage - successfully was able to clear search field
+15:08:08.339 pages.petstore.CatalogPage - Successfully able to type in search field
+15:08:13.853 pages.petstore.CatalogPage - Successfully able to click on Search
+15:08:14.834 base.CommonAPI - Test Status: PASS
+
+15:18:23.343 pages.petstore.LandingPage - Click to enter was successful
+15:18:23.468 pages.petstore.CatalogPage - Successfully able to type in search field
+15:18:25.871 pages.petstore.CatalogPage - Successfully able to click on Search
+15:18:27.160 base.CommonAPI - Test Status: PASS
+
+15:18:29.608 pages.petstore.LandingPage - Click to enter was successful
+15:19:00.876 pages.petstore.LandingPage - Click to enter was successful
+15:19:01.371 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:19:01.720 pages.petstore.FishPage - Selecting Shark was successful
+15:19:02.407 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:19:03.180 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:19:03.288 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:19:03.421 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:19:03.727 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:19:05.211 base.CommonAPI - Test Status: PASS
+
+15:19:08.206 pages.petstore.LandingPage - Click to enter was successful
+15:19:08.654 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:19:08.975 pages.petstore.FishPage - Selecting Shark was successful
+15:19:09.445 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:19:09.837 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:19:09.902 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:19:09.976 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:19:10.254 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:19:10.708 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:19:11.502 base.CommonAPI - Test Status: PASS
+
+15:25:50.049 pages.petstore.LandingPage - Click to enter was successful
+15:25:50.547 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:25:50.807 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:25:51.388 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:25:52.230 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:25:53.560 base.CommonAPI - Test Status: PASS
+
+15:25:56.705 pages.petstore.LandingPage - Click to enter was successful
+15:25:57.078 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:25:57.361 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:25:57.822 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:25:58.314 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:25:58.389 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:25:58.488 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:25:58.930 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:25:59.861 base.CommonAPI - Test Status: PASS
+
+15:26:02.852 pages.petstore.LandingPage - Click to enter was successful
+15:26:03.118 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:26:03.490 pages.petstore.FishPage - Selecting Shark was successful
+15:26:04.048 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:26:04.675 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:26:04.772 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:26:04.833 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:26:05.198 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:26:06.184 base.CommonAPI - Test Status: PASS
+
+15:26:09.105 pages.petstore.LandingPage - Click to enter was successful
+15:26:09.434 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:26:09.734 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:26:10.195 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:26:10.872 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:26:10.968 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:26:11.065 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:26:11.355 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:26:11.721 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:26:12.631 base.CommonAPI - Test Status: PASS
+
+15:26:16.186 pages.petstore.LandingPage - Click to enter was successful
+15:26:16.554 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:26:17.007 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:26:17.469 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:26:18.137 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:26:18.193 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:26:18.320 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:26:18.754 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:26:19.664 base.CommonAPI - Test Status: PASS
+
+15:26:22.374 pages.petstore.LandingPage - Click to enter was successful
+15:26:22.753 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:26:23.099 pages.petstore.FishPage - Selecting Shark was successful
+15:26:23.466 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:26:23.776 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:26:23.848 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:26:23.916 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:26:24.235 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:26:25.001 base.CommonAPI - Test Status: PASS
+
+15:32:46.713 pages.petstore.LandingPage - Click to enter was successful
+15:32:47.139 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:32:47.542 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:32:48.140 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:32:48.942 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:32:50.312 base.CommonAPI - Test Status: PASS
+
+15:32:53.338 pages.petstore.LandingPage - Click to enter was successful
+15:32:53.731 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:32:54.013 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:32:54.427 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:32:55.103 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:32:55.167 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:32:55.262 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:32:55.667 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:32:56.003 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:32:56.278 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:32:57.101 base.CommonAPI - Test Status: PASS
+
+15:33:00.300 pages.petstore.LandingPage - Click to enter was successful
+15:33:00.683 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:33:00.989 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:33:01.375 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:33:02.043 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:33:02.127 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:33:02.186 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:33:02.473 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:33:03.263 base.CommonAPI - Test Status: PASS
+
+15:33:06.312 pages.petstore.LandingPage - Click to enter was successful
+15:33:06.744 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:33:07.024 pages.petstore.FishPage - Selecting Shark was successful
+15:33:07.484 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:33:08.090 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:33:08.189 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:33:08.264 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:33:08.503 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:33:09.257 base.CommonAPI - Test Status: PASS
+
+15:33:12.254 pages.petstore.LandingPage - Click to enter was successful
+15:33:12.583 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:33:12.886 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:33:13.359 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:33:13.682 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:33:13.742 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:33:13.800 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:33:14.091 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:33:14.522 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:33:15.358 base.CommonAPI - Test Status: PASS
+
+15:33:18.133 pages.petstore.LandingPage - Click to enter was successful
+15:33:18.571 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:33:18.878 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:33:19.211 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:33:19.763 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:33:19.823 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:33:19.877 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:33:20.160 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:33:21.128 base.CommonAPI - Test Status: PASS
+
+15:33:23.884 pages.petstore.LandingPage - Click to enter was successful
+15:33:24.283 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:33:24.807 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:33:25.160 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:33:25.506 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:33:25.576 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:33:25.638 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:33:25.992 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:33:26.944 base.CommonAPI - Test Status: PASS
+
+15:33:29.620 pages.petstore.LandingPage - Click to enter was successful
+15:33:30.112 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:33:30.403 pages.petstore.FishPage - Selecting Shark was successful
+15:33:30.802 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:33:31.075 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:33:31.134 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:33:31.189 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:33:31.517 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:33:32.341 base.CommonAPI - Test Status: PASS
+
+15:40:02.316 pages.petstore.LandingPage - Click to enter was successful
+15:40:02.718 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:40:03.020 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:40:03.547 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:40:04.156 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:40:05.517 base.CommonAPI - Test Status: PASS
+
+15:40:08.535 pages.petstore.LandingPage - Click to enter was successful
+15:40:08.952 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:40:09.336 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:40:09.736 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:40:10.026 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:40:10.085 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:10.145 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:10.372 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:11.191 base.CommonAPI - Test Status: PASS
+
+15:40:13.838 pages.petstore.LandingPage - Click to enter was successful
+15:40:14.287 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:40:14.632 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:40:15.237 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:40:16.213 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:40:16.275 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:16.378 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:16.747 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:17.141 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:17.489 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:18.280 base.CommonAPI - Test Status: PASS
+
+15:40:20.969 pages.petstore.LandingPage - Click to enter was successful
+15:40:21.460 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:40:21.757 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:40:22.132 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:40:22.729 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:40:22.801 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:22.878 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:23.162 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:24.049 base.CommonAPI - Test Status: PASS
+
+15:40:27.163 pages.petstore.LandingPage - Click to enter was successful
+15:40:27.560 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:40:27.903 pages.petstore.FishPage - Selecting Shark was successful
+15:40:28.322 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:40:28.660 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:40:28.719 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:28.775 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:29.061 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:29.975 base.CommonAPI - Test Status: PASS
+
+15:40:33.230 pages.petstore.LandingPage - Click to enter was successful
+15:40:33.553 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:40:33.975 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:40:34.386 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:40:34.851 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:40:34.939 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:35.050 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:35.417 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:36.364 base.CommonAPI - Test Status: PASS
+
+15:40:39.591 pages.petstore.LandingPage - Click to enter was successful
+15:40:39.993 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:40:40.304 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:40:40.696 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:40:41.115 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:40:41.180 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:41.246 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:41.598 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:42.425 base.CommonAPI - Test Status: PASS
+
+15:40:45.166 pages.petstore.LandingPage - Click to enter was successful
+15:40:45.567 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:40:46.043 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:40:46.504 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:40:47.150 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:40:47.218 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:47.275 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:47.546 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:48.514 base.CommonAPI - Test Status: PASS
+
+15:40:51.375 pages.petstore.LandingPage - Click to enter was successful
+15:40:51.761 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:40:52.104 pages.petstore.FishPage - Selecting Shark was successful
+15:40:52.660 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:40:53.360 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:40:53.461 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:40:53.538 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:40:53.836 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:40:54.804 base.CommonAPI - Test Status: PASS
+
+15:47:21.679 pages.petstore.LandingPage - Click to enter was successful
+15:47:22.123 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:47:22.518 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:47:22.892 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:47:23.524 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:47:24.877 base.CommonAPI - Test Status: PASS
+
+15:47:27.673 pages.petstore.LandingPage - Click to enter was successful
+15:47:28.082 pages.petstore.CatalogPage - Successfully able to click on cart button
+15:47:29.043 base.CommonAPI - Test Status: PASS
+
+15:47:31.869 pages.petstore.LandingPage - Click to enter was successful
+15:47:32.487 pages.petstore.CatalogPage - Click on Sign in Link was successful
+15:47:32.553 pages.petstore.SignInPage - successfully was able to type in username
+15:47:32.615 pages.petstore.SignInPage - successfully cleared pw field
+15:47:32.677 pages.petstore.SignInPage - successfully was able to type in password
+15:47:33.132 pages.petstore.SignInPage - Click on Login button was successful
+15:47:33.538 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:47:33.836 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:47:34.331 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:47:34.717 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:47:35.461 base.CommonAPI - Test Status: PASS
+
+15:47:38.532 pages.petstore.LandingPage - Click to enter was successful
+15:47:38.971 pages.petstore.CatalogPage - Click on Sign in Link was successful
+15:47:39.144 pages.petstore.SignInPage - successfully was able to type in username
+15:47:39.323 pages.petstore.SignInPage - successfully cleared pw field
+15:47:39.497 pages.petstore.SignInPage - successfully was able to type in password
+15:47:39.988 pages.petstore.SignInPage - Click on Login button was successful
+15:47:40.343 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:47:40.676 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:47:41.257 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:47:41.639 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:47:42.400 base.CommonAPI - Test Status: PASS
+
+15:47:45.333 pages.petstore.LandingPage - Click to enter was successful
+15:47:46.191 pages.petstore.CatalogPage - Click on Sign in Link was successful
+15:47:46.333 pages.petstore.SignInPage - successfully was able to type in username
+15:47:46.477 pages.petstore.SignInPage - successfully cleared pw field
+15:47:46.538 pages.petstore.SignInPage - successfully was able to type in password
+15:47:46.933 pages.petstore.SignInPage - Click on Login button was successful
+15:47:47.297 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:47:47.605 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:47:48.118 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:47:48.553 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:47:49.302 base.CommonAPI - Test Status: PASS
+
+15:47:52.055 pages.petstore.LandingPage - Click to enter was successful
+15:47:52.882 pages.petstore.CatalogPage - Click on Sign in Link was successful
+15:47:52.972 pages.petstore.SignInPage - successfully was able to type in username
+15:47:53.027 pages.petstore.SignInPage - successfully cleared pw field
+15:47:53.078 pages.petstore.SignInPage - successfully was able to type in password
+15:47:53.519 pages.petstore.SignInPage - Click on Login button was successful
+15:47:53.813 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:47:54.113 pages.petstore.FishPage - Selecting Shark was successful
+15:47:54.621 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:47:54.978 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:47:55.716 base.CommonAPI - Test Status: PASS
+
+15:47:58.305 pages.petstore.LandingPage - Click to enter was successful
+15:47:58.751 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:47:59.022 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:47:59.452 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:47:59.790 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:48:00.510 base.CommonAPI - Test Status: PASS
+
+15:48:03.218 pages.petstore.LandingPage - Click to enter was successful
+15:48:03.643 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:48:03.984 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:48:04.377 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:48:04.729 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:48:05.478 base.CommonAPI - Test Status: PASS
+
+15:48:08.360 pages.petstore.LandingPage - Click to enter was successful
+15:48:08.752 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:48:09.066 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:48:09.446 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:48:09.733 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:48:09.794 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:09.855 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:10.144 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:11.157 base.CommonAPI - Test Status: PASS
+
+15:48:13.853 pages.petstore.LandingPage - Click to enter was successful
+15:48:14.274 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:48:14.678 pages.petstore.FishPage - Selecting Shark was successful
+15:48:15.128 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:48:15.789 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:48:16.587 base.CommonAPI - Test Status: PASS
+
+15:48:19.761 pages.petstore.LandingPage - Click to enter was successful
+15:48:20.196 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:48:20.630 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:48:20.995 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:48:21.546 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:48:21.640 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:21.795 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:22.325 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:22.708 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:23.021 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:23.782 base.CommonAPI - Test Status: PASS
+
+15:48:26.876 pages.petstore.LandingPage - Click to enter was successful
+15:48:27.309 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:48:27.648 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:48:28.050 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:48:28.677 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:48:28.745 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:28.818 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:29.096 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:29.849 base.CommonAPI - Test Status: PASS
+
+15:48:32.844 pages.petstore.LandingPage - Click to enter was successful
+15:48:33.219 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:48:33.652 pages.petstore.FishPage - Selecting Shark was successful
+15:48:34.043 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:48:34.340 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:48:34.411 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:34.509 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:34.891 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:35.670 base.CommonAPI - Test Status: PASS
+
+15:48:38.448 pages.petstore.LandingPage - Click to enter was successful
+15:48:38.945 pages.petstore.CatalogPage - Click on Reptiles Link was successful
+15:48:39.192 pages.petstore.ReptilesPage - Selecting Manx Cat was successful
+15:48:39.638 pages.petstore.ReptilesPage - Successfully was able to view Venomless snake
+15:48:40.376 pages.petstore.ReptilesPage - Successfully was able to click on ATC button
+15:48:40.457 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:40.511 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:40.797 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:41.714 base.CommonAPI - Test Status: PASS
+
+15:48:44.431 pages.petstore.LandingPage - Click to enter was successful
+15:48:44.822 pages.petstore.CatalogPage - Click on Dogs Link was successful
+15:48:45.163 pages.petstore.DogsPage - Selecting Angel Fish was successful
+15:48:45.511 pages.petstore.DogsPage - Successfully was able to view Male Adult BullDog Description
+15:48:45.979 pages.petstore.DogsPage - Successfully was able to click on Add to cart Male Adult BullDog
+15:48:46.077 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:46.191 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:46.423 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:47.221 base.CommonAPI - Test Status: PASS
+
+15:48:50.218 pages.petstore.LandingPage - Click to enter was successful
+15:48:50.567 pages.petstore.CatalogPage - Click on Cats Link was successful
+15:48:50.905 pages.petstore.CatsPage - Successfully was able to click on Persian Cats
+15:48:51.421 pages.petstore.CatsPage - Successfully was able to click on Adult Female persian cat
+15:48:52.032 pages.petstore.CatsPage - Successfully was able to click on Add to Cart for Adult Female persian cat
+15:48:52.110 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:52.164 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:52.455 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:53.468 base.CommonAPI - Test Status: PASS
+
+15:48:56.299 pages.petstore.LandingPage - Click to enter was successful
+15:48:56.729 pages.petstore.CatalogPage - Click on Fish Link was successful
+15:48:57.092 pages.petstore.FishPage - Selecting Shark was successful
+15:48:57.675 pages.petstore.FishPage - Successfully was able to view Toothless Shark Description
+15:48:57.953 pages.petstore.FishPage - Successfully Able to click on ATC Button
+15:48:58.310 pages.petstore.AddToCartPage - successfully was able to clear search field
+15:48:58.364 pages.petstore.AddToCartPage - Successfully able to update quantity
+15:48:58.624 pages.petstore.AddToCartPage - Successfully able to update cart for total
+15:48:59.431 base.CommonAPI - Test Status: PASS
+

@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 
 public class FishPage extends CommonAPI {
     private final Logger LOG= LoggerFactory.getLogger(FishPage.class);
@@ -88,6 +89,14 @@ public class FishPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
     private WebElement femalegoldfishtitle;
 
+   // ATCbutton for assertion after you click on pet description and add to cart
+    @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[7]/td/a")
+    private WebElement addToCartFishDesc;
+
+    // Assertions for Description
+    @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[1]/th[3]/b")
+    private WebElement descriptionTitle;
+
 
 
     public FishPage(WebDriver driver) {
@@ -150,6 +159,11 @@ public class FishPage extends CommonAPI {
     public String nonspotkoititle(){ return getElementText(nonspotkoititle); }
     public String malegoldfishtitle(){ return getElementText(malegoldfishtitle); }
     public String femalegoldfishtitle(){ return getElementText(femalegoldfishtitle); }
+    public String descriptionTitle(){ return getElementText(descriptionTitle); }
+
+
+    public boolean addToCartFishDescFunction(){ return addToCartFishDesc.isEnabled();}
+
 
 
 

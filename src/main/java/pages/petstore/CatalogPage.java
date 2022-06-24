@@ -32,6 +32,9 @@ public class CatalogPage extends CommonAPI {
     //cart, signin,help, signout, my account
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[1]")
     private WebElement cart;
+    @FindBy(xpath = "//*[@id=\"Cart\"]/h2")
+    private WebElement cartTitle;
+
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[2]")
     private WebElement signin;
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[3]")
@@ -110,7 +113,7 @@ public class CatalogPage extends CommonAPI {
     }
 
     public void setSignout(){
-        click(signin);
+        click(signout);
         LOG.info("Successfully able to logout");
     }
 
@@ -158,5 +161,11 @@ public class CatalogPage extends CommonAPI {
       typeAndEnter(searchfield, text);
         LOG.info("Successfully able to type " + text + " and search");
     }
+
+    public boolean logoutLinkFunction(){ return signout.isEnabled();}
+    public String cartTitle(){ return getElementText(cartTitle); }
+    public boolean emailButtonFunction(){ return emailbutton.isEnabled();}
+    public boolean searchFieldBttnFunction(){ return searchbutton.isEnabled();}
+
 
 }

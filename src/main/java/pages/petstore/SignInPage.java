@@ -60,6 +60,8 @@ public class SignInPage extends CommonAPI {
 
     public String Invalidtext(){ return getElementText(Invalidtext); }
     public String WelcomeText(){ return getElementText(WelcomeText); }
+    public boolean loginLinkFunction(){ return loginbutton.isEnabled();}
+
 
 
 

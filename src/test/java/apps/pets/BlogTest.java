@@ -14,6 +14,8 @@ public class BlogTest extends CommonAPI {
         LandingPage.clickLink();
         CatalogPage.setBloglink();
         CatalogPage.setEmailbutton();
+        Assert.assertTrue(CatalogPage.emailButtonFunction());
+
     }
     @Test
     public void Release() {
