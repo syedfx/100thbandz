@@ -56,6 +56,10 @@ public class BirdsPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")
     private WebElement atcbuttonparrot1;
 
+    //description
+    @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[1]/th[3]/b")
+    private WebElement descriptiontitle;
+
     public BirdsPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -87,8 +91,8 @@ public class BirdsPage extends CommonAPI {
 
     }
     public String MaleAdultAmazonParrotTitle(){ return getElementText(MaleAdultAmazonParrotTitle); }
-    public String MaleAdultFinchTitle(){ return getElementText(MaleAdultFinchTitle);
-    }
-
+    public String MaleAdultFinchTitle(){ return getElementText(MaleAdultFinchTitle);}
+        public String DescriptionTitle(){return getElementText(descriptiontitle);}
 
 }
+

@@ -28,8 +28,8 @@ public class CartTest extends CommonAPI {
         FishPage.setTigershark();
         FishPage.setToothlesstigersharkdesc();
         FishPage.sharkatcbtn();
-         String expectedtitle = "Description";
-         Assert.assertEquals(expectedtitle, FishPage.descriptionTitle());
+        String expectedtitle = "Description";
+        Assert.assertEquals(expectedtitle, FishPage.descriptionTitle());
     }
 
      @Test
@@ -50,38 +50,37 @@ public class CartTest extends CommonAPI {
 
 
   }
-//    @Test
-//    public void ParrotCarted() {
-//        LandingPage LandingPage = new LandingPage(getDriver());
-//        CatalogPage CatalogPage = new CatalogPage(getDriver());
-//        BirdsPage BirdsPage = new BirdsPage(getDriver());
-//        LandingPage.clickLink();
-//        CatalogPage.setBirdlink();
-//        BirdsPage.setAmazonParrot();
-//        waitFor(5);
-//        BirdsPage.setMaleAdultAmazonParrot();
-//        waitFor(10);
-//        BirdsPage.setAtcbutton();
-          String expectedtitle = "Description";
-//         Assert.assertEquals(expectedtitle, BirdsPage.descriptionTitle());
-//    }
-//    }
-//
-//    @Test
-//    public void UpdateParrotQtyCart() {
-//        LandingPage LandingPage = new LandingPage(getDriver());
-//        CatalogPage CatalogPage = new CatalogPage(getDriver());
-//        BirdsPage BirdsPage = new BirdsPage(getDriver());
-//        AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
-//        LandingPage.clickLink();
-//        CatalogPage.setBirdlink();
-//        BirdsPage.setAmazonParrot();
-//        BirdsPage.setMaleAdultAmazonParrot();
-//        BirdsPage.setAtcbutton();
-//        AddToCartPage.clearfield();
-//        AddToCartPage.updateQuantity("3");
-//        AddToCartPage.UpdateCartBtn();
-//    }
+    @Test
+    public void ParrotCarted() {
+        LandingPage LandingPage = new LandingPage(getDriver());
+        CatalogPage CatalogPage = new CatalogPage(getDriver());
+        BirdsPage BirdsPage = new BirdsPage(getDriver());
+        LandingPage.clickLink();
+        CatalogPage.setBirdlink();
+        BirdsPage.setAmazonParrot();
+        BirdsPage.setMaleAdultAmazonParrot();
+        BirdsPage.setAtcbutton();
+         String expectedtitle = "Description";
+         Assert.assertEquals(expectedtitle, BirdsPage.DescriptionTitle());
+    }
+
+    @Test
+    public void UpdateParrotQtyCart() {
+        LandingPage LandingPage = new LandingPage(getDriver());
+        CatalogPage CatalogPage = new CatalogPage(getDriver());
+        BirdsPage BirdsPage = new BirdsPage(getDriver());
+        AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
+        LandingPage.clickLink();
+        CatalogPage.setBirdlink();
+        BirdsPage.setAmazonParrot();
+        BirdsPage.setMaleAdultAmazonParrot();
+        BirdsPage.setAtcbutton();
+        AddToCartPage.clearfield();
+        AddToCartPage.updateQuantity("3");
+        AddToCartPage.UpdateCartBtn();
+        AddToCartPage.UpdateCartBtn();
+        Assert.assertTrue(AddToCartPage.updatecartbuttonFunction());
+  }
     @Test
     public void PersianCatCarted() {
         LandingPage LandingPage = new LandingPage(getDriver());
@@ -185,23 +184,23 @@ public class CartTest extends CommonAPI {
         FishPage.setToothlesstigersharkdesc();
         FishPage.sharkatcbtn();
     }
-//    @Test
-//        public void LoggedinParrotCart(){
-//            LandingPage LandingPage = new LandingPage(getDriver());
-//            CatalogPage CatalogPage = new CatalogPage(getDriver());
-//            SignInPage SignInPage = new SignInPage(getDriver());
-//            BirdsPage BirdsPage = new BirdsPage(getDriver());
-//            LandingPage.clickLink();
-//            CatalogPage.setSignin();
-//            SignInPage.setUsername("Tester");
-//            SignInPage.ClearPassword();
-//            SignInPage.setPassword("12345");
-//            SignInPage.Loginbttn();
-//            CatalogPage.setBirdlink();
-//            BirdsPage.setAmazonParrot();
-//            BirdsPage.setMaleAdultAmazonParrot();
-//            BirdsPage.setAtcbutton();
-//        }
+    @Test
+        public void LoggedinParrotCart(){
+            LandingPage LandingPage = new LandingPage(getDriver());
+            CatalogPage CatalogPage = new CatalogPage(getDriver());
+            SignInPage SignInPage = new SignInPage(getDriver());
+            BirdsPage BirdsPage = new BirdsPage(getDriver());
+            LandingPage.clickLink();
+            CatalogPage.setSignin();
+            SignInPage.setUsername("Tester");
+            SignInPage.ClearPassword();
+            SignInPage.setPassword("12345");
+            SignInPage.Loginbttn();
+            CatalogPage.setBirdlink();
+            BirdsPage.setAmazonParrot();
+            BirdsPage.setMaleAdultAmazonParrot();
+            BirdsPage.setAtcbutton();
+        }
     @Test
     public void LoggedinPersianCatCarted(){
         LandingPage LandingPage = new LandingPage(getDriver());
@@ -252,9 +251,7 @@ public class CartTest extends CommonAPI {
         ReptilesPage.setRattlesnake();
         ReptilesPage.setVenomsnake();
         ReptilesPage.atcVenomlessSnake();
-    }
-
-
+       }
           @Test
           public void removeSharkFromCart(){
                LandingPage LandingPage = new LandingPage(getDriver());
@@ -306,7 +303,6 @@ public class CartTest extends CommonAPI {
           AddToCartPage.UpdateCartBtn();
           AddToCartPage.removeButtonFunction();
           Assert.assertTrue(AddToCartPage.removeButtonFunction());
-
      }
      @Test
      public void RemoveVenomlessSnakeQty() {

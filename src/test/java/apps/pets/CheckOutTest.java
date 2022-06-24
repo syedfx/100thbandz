@@ -21,12 +21,9 @@ public class CheckOutTest extends CommonAPI {
         SignInPage.ClearPassword();
         SignInPage.setPassword("exotic");
         SignInPage.Loginbttn();
-        waitFor(3);
         CatalogPage.setBirdlink();
-        waitFor(3);
         BirdsPage.setAmazonParrot();
         BirdsPage.setMaleAdultAmazonParrot();
-        waitFor(3);
         BirdsPage.setAtcbutton();
         AddToCartPage.CheckOutBttn();
         CheckOutPage.setContinuebutton();
@@ -76,38 +73,31 @@ public class CheckOutTest extends CommonAPI {
         CatalogPage.setBirdlink();
         BirdsPage.setAmazonParrot();
         BirdsPage.setMaleAdultAmazonParrot();
-        waitFor(3);
-
-
-
-
-
-//        BirdsPage.setAtcbutton();
-//        BirdsPage.setAmazonParrot();
-//        BirdsPage.setAtcbutton1();
-//        AddToCartPage.CheckOutBttn();
-//        CheckOutPage.setShipdiffaddy();
-//        CheckOutPage.waitFor(1);
-//        CheckOutPage.setContinuebutton();
-//        CheckOutPage.ClearFirstName();
-//        CheckOutPage.setFirstName("Donald Trump");
-//        CheckOutPage.ClearLastName();
-//        CheckOutPage.setLastName("Trump");
-//        CheckOutPage.ClearAddress1();
-//        CheckOutPage.setAddress1("123 America");
-//        CheckOutPage.ClearAddress2();
-//        CheckOutPage.setAddress2("apt White House");
-//        CheckOutPage.ClearCity();
-//        CheckOutPage.setCity("Maralago");
-//        CheckOutPage.ClearState();
-//        CheckOutPage.setState("FL");
-//        CheckOutPage.ClearZip();
-//        CheckOutPage.setZip("12345");
-//        CheckOutPage.ClearCountry();
-//        CheckOutPage.setCountry("USA");
-//        CheckOutPage.continuebuttonshippingaddress();
-//        CheckOutPage.setConfirmOrderbtn2();
-//        String expectedtitle = "Description";
-//        Assert.assertEquals(expectedtitle,CheckOutPage. description());
+        BirdsPage.setAtcbutton();
+        AddToCartPage.CheckOutBttn();
+          waitFor(5);
+      CheckOutPage.setShipdiffaddy();
+        CheckOutPage.waitFor(1);
+        CheckOutPage.setContinuebutton();
+        CheckOutPage.ClearFirstName();
+        CheckOutPage.setFirstName("Donald Trump");
+        CheckOutPage.ClearLastName();
+        CheckOutPage.setLastName("Trump");
+        CheckOutPage.ClearAddress1();
+        CheckOutPage.setAddress1("123 America");
+        CheckOutPage.ClearAddress2();
+        CheckOutPage.setAddress2("apt White House");
+        CheckOutPage.ClearCity();
+        CheckOutPage.setCity("Maralago");
+        CheckOutPage.ClearState();
+        CheckOutPage.setState("FL");
+        CheckOutPage.ClearZip();
+        CheckOutPage.setZip("12345");
+        CheckOutPage.ClearCountry();
+        CheckOutPage.setCountry("USA");
+        CheckOutPage.continuebuttonshippingaddress();
+        CheckOutPage.setConfirmOrderbtn2();
+        String expectedtitle = "Description";
+        Assert.assertEquals(expectedtitle,CheckOutPage. description());
     }
 }

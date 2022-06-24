@@ -49,6 +49,10 @@ public class AddToCartPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"Cart\"]/a")
     private WebElement checkoutbttn;
 
+    //updatecart
+    @FindBy(xpath = "//*[@id=\"Cart\"]/a")
+    private WebElement checkoutbttncart;
+
     public AddToCartPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -73,6 +77,11 @@ public class AddToCartPage extends CommonAPI {
     }
 
     public void CheckOutBttn(){
+        click(checkoutbttn);
+        LOG.info("Successfully able to click on checkout bttn");
+    }
+
+    public void CheckOutBttnCart(){
         click(checkoutbttn);
         LOG.info("Successfully able to click on checkout bttn");
     }
