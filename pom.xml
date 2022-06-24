@@ -117,15 +117,14 @@
         <version>2.22.1</version>
         <configuration>
           <suiteXmlFiles>
-
-            <!--            <suiteXmlFile>C:\Users\17185\Documents\PNT\src\test\resources\pet-runner.xml</suiteXmlFile>-->
+                        <suiteXmlFile>C:\Users\17185\Downloads\Bootcamp\src\test\resources\pet-runner.xml</suiteXmlFile>
             <!--            <suiteXmlFile>C:\Users\17185\Documents\PNT\src\test\resources\opencart-runner.xml</suiteXmlFile>-->
             <!--            <suiteXmlFile>C:\Users\17185\Documents\PNT\src\test\resources\parabank-runner.xml</suiteXmlFile>-->
             <!--            <suiteXmlFile>C:\Users\17185\Documents\PNT\src\test\resources\png-runner.xml</suiteXmlFile>-->
             <!--            <suiteXmlFile>C:\Users\17185\Documents\PNT\src\test\resources\rahulshettyacademy-runner.xml</suiteXmlFile>-->
             <!--            <suiteXmlFile>C:\Users\17185\Documents\PNT\src\test\resources\lamdatest-runner.xml</suiteXmlFile>-->
 
-
+\
           </suiteXmlFiles>
         </configuration>
       </plugin>

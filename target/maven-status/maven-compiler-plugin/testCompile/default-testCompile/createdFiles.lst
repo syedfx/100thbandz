@@ -1,0 +1,12 @@
+apps\pets\BlogTest.class
+apps\pets\DogsTest.class
+apps\pets\RegisterTest.class
+apps\pets\CatsTest.class
+apps\pets\OrdersTest.class
+apps\pets\BirdsTest.class
+apps\pets\CheckOutTest.class
+apps\pets\AccountsTest.class
+apps\pets\CartTest.class
+apps\pets\ReptilesTest.class
+apps\pets\SearchTest.class
+apps\pets\FishTest.class
