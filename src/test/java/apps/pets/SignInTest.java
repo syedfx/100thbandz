@@ -9,7 +9,7 @@ import pages.petstore.SignInPage;
 
 public class SignInTest extends CommonAPI {
 
-  //  @Test
+     @Test
     public void ValidLogin(){
         LandingPage LandingPage = new LandingPage(getDriver());
         CatalogPage CatalogPage = new CatalogPage(getDriver());
@@ -23,7 +23,7 @@ public class SignInTest extends CommonAPI {
         String expectedtitle = "Welcome Joe!";
         Assert.assertEquals(expectedtitle,SignInPage.WelcomeText());
     }
-   // @Test
+    @Test
     public void ValidLogout(){
         LandingPage LandingPage = new LandingPage(getDriver());
         CatalogPage CatalogPage = new CatalogPage(getDriver());
@@ -50,6 +50,37 @@ public class SignInTest extends CommonAPI {
         SignInPage.setPassword("hfhfhfhf");
         SignInPage.Loginbttn();
         Assert.assertTrue(SignInPage.loginLinkFunction());
+    }
+
+    @Test
+    public void ValidLoginSyed(){
+        LandingPage LandingPage = new LandingPage(getDriver());
+        CatalogPage CatalogPage = new CatalogPage(getDriver());
+        SignInPage SignInPage  = new SignInPage(getDriver());
+        LandingPage.clickLink();
+        CatalogPage.setSignin();
+        SignInPage.setUsername("syedfx");
+        SignInPage.ClearPassword();
+        SignInPage.setPassword("Risat456");
+        SignInPage.Loginbttn();
+        String expectedtitle = "Welcome Syed!";
+        Assert.assertEquals(expectedtitle,SignInPage.WelcomeText());
+    }
+
+    @Test
+    public void ValidLoginSyedLogOut(){
+        LandingPage LandingPage = new LandingPage(getDriver());
+        CatalogPage CatalogPage = new CatalogPage(getDriver());
+        SignInPage SignInPage  = new SignInPage(getDriver());
+        LandingPage.clickLink();
+        CatalogPage.setSignin();
+        SignInPage.setUsername("syedfx");
+        SignInPage.ClearPassword();
+        SignInPage.setPassword("Risat456");
+        SignInPage.Loginbttn();
+        CatalogPage.setSignout();
+        Assert.assertTrue(CatalogPage.logoutLinkFunction());
+
     }
 
 

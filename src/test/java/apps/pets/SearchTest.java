@@ -66,20 +66,20 @@ public class SearchTest extends CommonAPI {
         Assert.assertEquals(expectedtitle, CatalogPage.fishText());
     }
 
-//    @Test
-//    public void searchMultiplePetsWithExcel() {
-//        LandingPage LandingPage = new LandingPage(getDriver());
-//        LandingPage.clickLink();
-//        CatalogPage CatalogPage = new CatalogPage(getDriver());
-//        ExcelReader excelReader = new ExcelReader(currentDir +"/data/SearchPets.xlsx");
-//        List<String> pets = excelReader.getEntireColumnForGivenHeader("Sheet1", "Pets");
-//        for (String pet : pets) {
-//            CatalogPage.typeAndSearch(pet);
-//            waitFor(3);
-//            CatalogPage.clearfield();
-//            waitFor(3);
-//        }
-//
-//    }
+    @Test
+    public void searchMultiplePetsWithExcel() {
+        LandingPage LandingPage = new LandingPage(getDriver());
+        LandingPage.clickLink();
+        CatalogPage CatalogPage = new CatalogPage(getDriver());
+        ExcelReader excelReader = new ExcelReader(currentDir +"/data/SearchPets.xlsx");
+        List<String> pets = excelReader.getEntireColumnForGivenHeader("Sheet1", "Pets");
+        for (String pet : pets) {
+            CatalogPage.typeAndSearch(pet);
+            waitFor(3);
+            CatalogPage.clearfield();
+            waitFor(3);
+        }
+
+    }
 
 }

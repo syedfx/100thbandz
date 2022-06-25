@@ -14,21 +14,21 @@
 
     <test name="PetStore">
         <classes>
-<!--            <class name="apps.pets.FishTest"></class>-->
-<!--            <class name="apps.pets.DogsTest"></class>-->
-<!--            <class name="apps.pets.RegisterTest"></class>-->
-<!--            <class name="apps.pets.SignInTest"></class>-->
+            <class name="apps.pets.FishTest"></class>
+            <class name="apps.pets.DogsTest"></class>
+            <class name="apps.pets.RegisterTest"></class>
+            <class name="apps.pets.SignInTest"></class>
             <class name="apps.pets.CheckOutTest"></class>
-<!--            <class name="apps.pets.AccountsTest"></class>-->
-<!--            <class name="apps.pets.BlogTest"></class>-->
-<!--            <class name="apps.pets.CatsTest"></class>-->
-<!--            <class name="apps.pets.ReptilesTest"></class>-->
-<!--            <class name="apps.pets.BirdsTest"></class>-->
-<!--            <class name="apps.pets.OrdersTest"></class>-->
-<!--            <class name="apps.pets.SearchTest"></class>-->
-<!--            <class name="apps.pets.BlogTest"></class>-->
-<!--            <class name="apps.pets.CartTest"></class>-->
-<!--            <class name="apps.pets.SignInTest"></class>-->
+            <class name="apps.pets.AccountsTest"></class>
+            <class name="apps.pets.BlogTest"></class>
+            <class name="apps.pets.CatsTest"></class>
+            <class name="apps.pets.ReptilesTest"></class>
+            <class name="apps.pets.BirdsTest"></class>
+            <class name="apps.pets.OrdersTest"></class>
+            <class name="apps.pets.SearchTest"></class>
+            <class name="apps.pets.BlogTest"></class>
+            <class name="apps.pets.CartTest"></class>
+            <class name="apps.pets.SignInTest"></class>
         </classes>
 
 
