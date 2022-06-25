@@ -34,13 +34,13 @@ public class MyOrdersPage extends CommonAPI {
 
     //assertions xpath
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[1]/th")
-    private WebElement ordernumberDetails;
+    private WebElement orderNumberDetails;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[26]/td/table/tbody/tr[2]/td[2]")
     private WebElement orderDescriptionDetails;
     @FindBy (xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[26]/td/table/tbody/tr[3]/th")
     private WebElement orderTotal;
     @FindBy (xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[24]/td[2]")
-    private WebElement shippingprovider;
+    private WebElement shippingProvider;
     @FindBy (xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[15]/th")
     private WebElement shippingAddress;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[6]/th")
@@ -93,10 +93,10 @@ public class MyOrdersPage extends CommonAPI {
     }
 
 
-   public String ordernumberDetails(){ return getElementText(ordernumberDetails); }
+   public String orderNumberDetails(){ return getElementText(orderNumberDetails); }
     public String orderDescriptionDetails(){ return getElementText(orderDescriptionDetails); }
     public String orderTotal(){ return getElementText(orderTotal); }
-    public String shippingprovider(){ return getElementText(shippingprovider);}
+    public String shippingProvider(){ return getElementText(shippingProvider);}
     public String shippingAddress(){ return getElementText(shippingAddress); }
     public String billingAddress(){ return getElementText(billingAddress); }
     public String paymentDetails(){ return getElementText(paymentDetails); }

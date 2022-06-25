@@ -12,8 +12,8 @@ public class BlogTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setBloglink();
-        CatalogPage.setEmailbutton();
+        CatalogPage.setBlogLink();
+        CatalogPage.setEmailButton();
         Assert.assertTrue(CatalogPage.emailButtonFunction());
 
     }
@@ -22,7 +22,7 @@ public class BlogTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setBloglink();
+        CatalogPage.setBlogLink();
         CatalogPage.setReleaselink();
         String expectedtitle = "MyBatis 3.5.10 released!";
         Assert.assertEquals(expectedtitle,CatalogPage.ReleaseTitle());

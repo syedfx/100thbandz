@@ -12,12 +12,12 @@ public class DogsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.Bulldogs();
-        DogsPage.MaleAdultBullDog();
+        DogsPage.bullDogs();
+        DogsPage.maleAdultBullDog();
         String expectedtitle ="Male Adult Bulldog";
-        Assert.assertEquals(expectedtitle,DogsPage.MaleBullDogTitle());
+        Assert.assertEquals(expectedtitle,DogsPage.maleBulldogTitle());
     }
 
     @Test
@@ -25,24 +25,24 @@ public class DogsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.Bulldogs();
-        DogsPage.FemalePuppyBullDog();
+        DogsPage.bullDogs();
+        DogsPage.femalePuppyBullDog();
         String expectedtitle ="Female Puppy Bulldog";
-        Assert.assertEquals(expectedtitle,DogsPage.Femalebulldogtitle());
+        Assert.assertEquals(expectedtitle,DogsPage.femaleBulldogTitle());
     }
         @Test
          public void PoodleDesc() {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.Poodle();
-        DogsPage.MalePuppyPoodle();
+        DogsPage.poodle();
+        DogsPage.malePuppyPoodle();
         String expectedtitle = "Male Puppy Poodle";
-        Assert.assertEquals(expectedtitle,DogsPage.Poodledogtitle());
+        Assert.assertEquals(expectedtitle,DogsPage.poodleDogTitle());
     }
 
     @Test
@@ -50,12 +50,12 @@ public class DogsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.Dalmation();
-        DogsPage.MaleDalmation();
+        DogsPage.dalmation();
+        DogsPage.maleDalmation();
         String expectedtitle = "Spotless Male Puppy Dalmation";
-        Assert.assertEquals(expectedtitle,DogsPage.SpotlessDalmationtitle());
+        Assert.assertEquals(expectedtitle,DogsPage.spotlessDalmationTitle());
     }
 
     @Test
@@ -63,48 +63,48 @@ public class DogsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.Dalmation();
-        DogsPage.FemaleDalmation();
+        DogsPage.dalmation();
+        DogsPage.femaleDalmation();
           String expectedtitle = "Spotted Adult Female Dalmation";
-          Assert.assertEquals(expectedtitle,DogsPage.SpottedDalmationtitle());
+          Assert.assertEquals(expectedtitle,DogsPage.spottedDalmationTitle());
     }
     @Test
     public void GoldenRetrieverDesc() {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.GoldenRetriever();
-        DogsPage.FemaleGolden();
+        DogsPage.goldenRetriever();
+        DogsPage.femaleGolden();
         String expectedtitle = "Adult Female Golden Retriever";
-        Assert.assertEquals(expectedtitle,DogsPage.Goldendogtitle());
+        Assert.assertEquals(expectedtitle,DogsPage.goldenDogTitle());
     }
     @Test
     public void AdultMaleLabradorRetrieverDesc() {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.LabradorRetriever();
-        DogsPage.RareMaleLabrador();
+        DogsPage.labradorRetriever();
+        DogsPage.rareMaleLabrador();
         String expectedtitle = "Adult Male Labrador Retriever";
-        Assert.assertEquals(expectedtitle,DogsPage.RareMaledogtitle());
+        Assert.assertEquals(expectedtitle,DogsPage.rareMaledogTitle());
     }
         @Test
         public void AdultFemaleLabradorRetrieverDesc() {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.LabradorRetriever();
-        DogsPage.RareFemaleLabrador();
+        DogsPage.labradorRetriever();
+        DogsPage.rareFemaleLabrador();
           String expectedtitle = "Adult Female Labrador Retriever";
-          Assert.assertEquals(expectedtitle,DogsPage.AdultFemaleLabradogtitle());
+          Assert.assertEquals(expectedtitle,DogsPage.adultFemaleLabradogTitle());
     }
 
         @Test
@@ -112,12 +112,12 @@ public class DogsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.Chihuahua();
-        DogsPage.FemaleChihuahua();
+        DogsPage.chihuahua();
+        DogsPage.femaleChihuahua();
         String expectedtitle = "Adult Female Chihuahua";
-        Assert.assertEquals(expectedtitle,DogsPage. FemaleChihuahuaTitle());
+        Assert.assertEquals(expectedtitle,DogsPage. femaleChihuahuaTitle());
     }
 
         @Test
@@ -125,12 +125,12 @@ public class DogsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setDoglink();
+        CatalogPage.setDogLink();
         DogsPage DogsPage = new DogsPage(getDriver());
-        DogsPage.Chihuahua();
-        DogsPage.MaleChihuahua();
+        DogsPage.chihuahua();
+        DogsPage.maleChihuahua();
         String expectedtitle = "Adult Male Chihuahua";
-        Assert.assertEquals(expectedtitle,DogsPage. MaleChihuahuaTitle());
+        Assert.assertEquals(expectedtitle,DogsPage. maleChihuahuaTitle());
     }
 
 

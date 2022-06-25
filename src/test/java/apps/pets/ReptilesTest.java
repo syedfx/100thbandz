@@ -12,10 +12,10 @@ public class ReptilesTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setReptileslink();
+        CatalogPage.setReptilesLink();
         ReptilesPage ReptilesPage = new ReptilesPage(getDriver());
-        ReptilesPage.setRattlesnake();
-        ReptilesPage.setVenomsnake();
+        ReptilesPage.setRattleSnake();
+        ReptilesPage.setVenomSnake();
         String expectedtitle = "Venomless Rattlesnake";
         Assert.assertEquals(expectedtitle,ReptilesPage. VenomSnakeTitle());
     }
@@ -24,9 +24,9 @@ public class ReptilesTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setReptileslink();
+        CatalogPage.setReptilesLink();
         ReptilesPage ReptilesPage = new ReptilesPage(getDriver());
-        ReptilesPage.setRattlesnake();
+        ReptilesPage.setRattleSnake();
         ReptilesPage.setNonrattlesnake();
         String expectedtitle = "Rattleless Rattlesnake";
         Assert.assertEquals(expectedtitle,ReptilesPage. NonRattleSnakeTitle());
@@ -37,7 +37,7 @@ public class ReptilesTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setReptileslink();
+        CatalogPage.setReptilesLink();
         ReptilesPage ReptilesPage = new ReptilesPage(getDriver());
         ReptilesPage.setIguana();
         ReptilesPage.setGreeniguana();

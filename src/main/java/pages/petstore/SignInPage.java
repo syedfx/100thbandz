@@ -17,16 +17,16 @@ public class SignInPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/p[2]/input[2]")
     private WebElement password;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/input")
-    private WebElement loginbutton;
+    private WebElement loginButton;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/a")
-    private WebElement registernow;
+    private WebElement registerNow;
     @FindBy(xpath = "//*[@id=\"LogoContent\"]/a/img")
-    private WebElement returntohomeimg;
+    private WebElement returnToHomeImg;
     @FindBy(xpath = "//li[contains(text(),'Signon failed.')]")
-    private WebElement Invalidtext;
+    private WebElement invalidText;
 
     @FindBy(xpath = "//div[@id='WelcomeContent']")
-    private WebElement WelcomeText;
+    private WebElement welcomeText;
 
 
     public SignInPage(WebDriver driver) {
@@ -34,8 +34,8 @@ public class SignInPage extends CommonAPI {
     }
 
 
-    public void setRegisternow(){
-        click(registernow);
+    public void setRegisterNow(){
+        click(registerNow);
         LOG.info("Click on register now Link was successful");
     }
 
@@ -44,23 +44,23 @@ public class SignInPage extends CommonAPI {
         LOG.info("successfully was able to type in username");
     }
 
-    public void ClearPassword(){
+    public void clearPassword(){
         clear(password);
-        LOG.info("successfully cleared pw field");
+        LOG.info("successfully cleared password field");
     }
 
     public void setPassword(String item){
         type(password,item);
         LOG.info("successfully was able to type in password");
     }
-    public void Loginbttn(){
-        click(loginbutton);
+    public void loginBttn(){
+        click(loginButton);
         LOG.info("Click on Login button was successful");
     }
 
-    public String Invalidtext(){ return getElementText(Invalidtext); }
-    public String WelcomeText(){ return getElementText(WelcomeText); }
-    public boolean loginLinkFunction(){ return loginbutton.isEnabled();}
+    public String invalidText(){ return getElementText(invalidText); }
+    public String welcomeText(){ return getElementText(welcomeText); }
+    public boolean loginLinkFunction(){ return loginButton.isEnabled();}
 
 
 

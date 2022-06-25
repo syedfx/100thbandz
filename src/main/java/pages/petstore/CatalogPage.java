@@ -16,17 +16,17 @@ public class CatalogPage extends CommonAPI {
 
     //sidelinks
     @FindBy(xpath = "//*[@id=\"SidebarContent\"]/a[1]")
-    private WebElement fishlink;
+    private WebElement fishLink;
     @FindBy(xpath = "//*[@id=\"SidebarContent\"]/a[2]")
-    private WebElement doglink;
+    private WebElement dogLink;
     @FindBy(xpath = "//*[@id=\"SidebarContent\"]/a[3]")
-    private WebElement catslink;
+    private WebElement catsLink;
     @FindBy(xpath = "//*[@id=\"SidebarContent\"]/a[4]")
-    private WebElement reptileslink;
+    private WebElement reptilesLink;
     @FindBy(xpath = "//*[@id=\"SidebarContent\"]/a[5]")
-    private WebElement birdlink;
+    private WebElement birdLink;
     @FindBy(xpath = "//*[@id=\"PoweredBy\"]/a")
-    private WebElement bloglink;
+    private WebElement blogLink;
 
 
     //cart, signin,help, signout, my account
@@ -36,28 +36,28 @@ public class CatalogPage extends CommonAPI {
     private WebElement cartTitle;
 
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[2]")
-    private WebElement signin;
+    private WebElement signIn;
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[3]")
     private WebElement help;
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[2]")
-    private WebElement signout;
+    private WebElement signOut;
     @FindBy(xpath = "//*[@id=\"MenuContent\"]/a[3]")
-    private WebElement myaccount;
+    private WebElement myAccount;
 
     //search
     @FindBy(xpath = "//*[@id=\"SearchContent\"]/form/input[1]")
-    private WebElement searchfield;
+    private WebElement searchField;
     @FindBy(xpath = "//*[@id=\"SearchContent\"]/form/input[2]")
-    private WebElement searchbutton;
+    private WebElement searchButton;
     //returntomainmenu
     @FindBy(xpath = "//*[@id=\"BackLink\"]/a")
-    private WebElement returnmainmenu;
+    private WebElement returnMainMenu;
 
     //bloglocators
     @FindBy(xpath = "//*[@id=\"Blog1\"]/div[1]/div[1]/div/div/div/div[3]/div[1]/div/a[1]")
-    private WebElement emailbutton;
+    private WebElement emailButton;
     @FindBy(xpath = "//*[@id=\"Blog1\"]/div[1]/div[1]/div/div/div/h3/a")
-    private WebElement releaselink;
+    private WebElement releaseLink;
     //blogheader
     @FindBy(xpath = "//*[@id=\"headingText\"]/span")
     private WebElement SignInTitle;
@@ -66,7 +66,7 @@ public class CatalogPage extends CommonAPI {
 
     //locatorstext searchtest
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[3]")
-    private WebElement bulldogText;
+    private WebElement bullDogText;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[3]")
     private WebElement snakeText;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[3]")
@@ -81,68 +81,68 @@ public class CatalogPage extends CommonAPI {
     }
 
     public void setReleaselink(){
-            click(releaselink);
+            click(releaseLink);
             LOG.info("click to enter on Release link was succesful");
     }
-    public void setBloglink(){
-        click(bloglink);
+    public void setBlogLink(){
+        click(blogLink);
         LOG.info("Click on Blog link was successful");
     }
 
-    public void setEmailbutton(){
-        click(emailbutton);
+    public void setEmailButton(){
+        click(emailButton);
         LOG.info("Click on email button was successful");
     }
-    public void setReturnmainmenu(){
-        click(returnmainmenu);
+    public void setReturnMainMenu(){
+        click(returnMainMenu);
         LOG.info("Click on Return to main menu was successful");
     }
-    public void clearfield(){
-        clear(searchfield);
+    public void clearField(){
+        clear(searchField);
         LOG.info("successfully was able to clear search field");
     }
 
-    public void setFishlink(){
-        click(fishlink);
+    public void setFishLink(){
+        click(fishLink);
         LOG.info("Click on Fish Link was successful");
 
     }
-    public void setSignin(){
-        click(signin);
+    public void setSignIn(){
+        click(signIn);
         LOG.info("Click on Sign in Link was successful");
     }
 
-    public void setSignout(){
-        click(signout);
+    public void setSignOut(){
+        click(signOut);
         LOG.info("Successfully able to logout");
     }
 
-    public void setMyaccount(){
-        click(myaccount);
+    public void setMyAccount(){
+        click(myAccount);
         LOG.info("Successfully able to access my account");
     }
-    public void setDoglink(){
-        click(doglink);
+    public void setDogLink(){
+        click(dogLink);
         LOG.info("Click on Dogs Link was successful");
     }
-    public void setCatslink(){
-        click(catslink);
+    public void setCatsLink(){
+        click(catsLink);
         LOG.info("Click on Cats Link was successful");
     }
-    public void setReptileslink(){
-        click(reptileslink);
+    public void setReptilesLink(){
+        click(reptilesLink);
         LOG.info("Click on Reptiles Link was successful");
     }
-    public void setBirdlink(){
-        click(birdlink);
+    public void setBirdLink(){
+        click(birdLink);
         LOG.info("Click on Bird Link was successful");
     }
-    public void entersearch(String item){
-        type(searchfield,item);
+    public void enterSearch(String item){
+        type(searchField,item);
         LOG.info("Successfully able to type in search field");
     }
-    public void setSearchbutton(){
-        click(searchbutton);
+    public void setSearchButton(){
+        click(searchButton);
         LOG.info("Successfully able to click on Search");
     }
     public void setCart(){
@@ -152,20 +152,18 @@ public class CatalogPage extends CommonAPI {
     public String SignInTitle(){ return getElementText(SignInTitle);
     }
     public String ReleaseTitle(){return getElementText(ReleaseTitle);}
-    public String bulldogText(){ return getElementText(bulldogText); }
+    public String bulldogText(){ return getElementText(bullDogText); }
     public String snakeText(){ return getElementText(snakeText); }
     public String fishText(){ return getElementText(fishText); }
 
 
     public void typeAndSearch(String text){
-      typeAndEnter(searchfield, text);
+      typeAndEnter(searchField, text);
         LOG.info("Successfully able to type " + text + " and search");
     }
 
-    public boolean logoutLinkFunction(){ return signout.isEnabled();}
+    public boolean logoutLinkFunction(){ return signOut.isEnabled();}
     public String cartTitle(){ return getElementText(cartTitle); }
-    public boolean emailButtonFunction(){ return emailbutton.isEnabled();}
-    public boolean searchFieldBttnFunction(){ return searchbutton.isEnabled();}
-
-
+    public boolean emailButtonFunction(){ return emailButton.isEnabled();}
+    public boolean searchFieldBttnFunction(){ return searchButton.isEnabled();}
 }

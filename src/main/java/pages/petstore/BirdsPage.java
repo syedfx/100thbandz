@@ -14,18 +14,18 @@ public class BirdsPage extends CommonAPI {
     //menu bar
     //fish
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[1]/img")
-    private WebElement fishbar;
+    private WebElement fishBar;
     //dogs
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[2]/img")
-    private WebElement dogbar;
+    private WebElement dogBar;
     //reptiles
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement repbar;
+    private WebElement repBar;
     //dogs
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement catbar;
+    private WebElement catBar;
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[5]/img")
-    private WebElement birdsbar;
+    private WebElement birdsBar;
 
     //birdtype
     //Amazonparrot
@@ -39,26 +39,26 @@ public class BirdsPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
     private WebElement maleAdultAmazonParrot;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement MaleAdultAmazonParrotTitle;
+    private WebElement maleAdultAmazonParrotTitle;
 
     //finch info
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
     private WebElement maleAdultFinch;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement MaleAdultFinchTitle;
+    private WebElement maleAdultFinchTitle;
 
 
     //atcbutton parrot
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[7]/td/a")
-    private WebElement atcbuttonparrot;
+    private WebElement atcButtonParrot;
 
     //atcbutton parrot1
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")
-    private WebElement atcbuttonparrot1;
+    private WebElement atcButtonParrot1;
 
     //description
     @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[1]/th[3]/b")
-    private WebElement descriptiontitle;
+    private WebElement descriptionTitle;
 
     public BirdsPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -81,18 +81,18 @@ public class BirdsPage extends CommonAPI {
         LOG.info("Successfully Male Adult Finch was successful");
     }
 
-    public void setAtcbutton(){
-        click(atcbuttonparrot);
+    public void setAtcButton(){
+        click(atcButtonParrot);
         LOG.info("Successfully was able to add to cart Parrot");
     }
     public void setAtcbutton1(){
-        click(atcbuttonparrot1);
+        click(atcButtonParrot1);
         LOG.info("Successfully was able to add to cart Parrot");
 
     }
-    public String MaleAdultAmazonParrotTitle(){ return getElementText(MaleAdultAmazonParrotTitle); }
-    public String MaleAdultFinchTitle(){ return getElementText(MaleAdultFinchTitle);}
-        public String DescriptionTitle(){return getElementText(descriptiontitle);}
+    public String MaleAdultAmazonParrotTitle(){ return getElementText(maleAdultAmazonParrotTitle); }
+    public String MaleAdultFinchTitle(){ return getElementText(maleAdultFinchTitle);}
+        public String DescriptionTitle(){return getElementText(descriptionTitle);}
 
 }
 

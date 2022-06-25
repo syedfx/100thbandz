@@ -15,18 +15,18 @@ public class AddToCartPage extends CommonAPI {
     //menu bar
     //fish
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[1]/img")
-    private WebElement fishbar;
+    private WebElement fishBar;
     //dogs
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[2]/img")
-    private WebElement dogbar;
+    private WebElement dogBar;
     //reptiles
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement repbar;
+    private WebElement repBar;
     //dogs
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement catbar;
+    private WebElement catBar;
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[5]/img")
-    private WebElement birdsbar;
+    private WebElement birdsBar;
 
     //quantity field
     @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[2]/td[5]/input")
@@ -34,34 +34,34 @@ public class AddToCartPage extends CommonAPI {
 
     //updatecart
     @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[3]/td[1]/input")
-    private WebElement updatecartbutton;
+    private WebElement updateCartButton;
 
 
     //remove
     @FindBy(xpath = "//*[@id=\"Cart\"]/form/table/tbody/tr[2]/td[8]/a")
-    private WebElement removebutton;
+    private WebElement removeButton;
 
     //returnmainmenu
     @FindBy(xpath = "//*[@id=\"BackLink\"]/a")
-    private WebElement returnmainmenu;
+    private WebElement returnMainMenu;
 
-    //checkoutbbtn
+    //checkOutbbtn
     @FindBy(xpath = "//*[@id=\"Cart\"]/a")
-    private WebElement checkoutbttn;
+    private WebElement checkOutBttn;
 
-    //updatecart
+    //updateCart
     @FindBy(xpath = "//*[@id=\"Cart\"]/a")
-    private WebElement checkoutbttncart;
+    private WebElement checkoutBttnCart;
 
     public AddToCartPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
-    public void setReturnmainmenu(){
-        click(returnmainmenu);
+    public void setReturnMainMenu(){
+        click(returnMainMenu);
         LOG.info("Click on Return to main menu was successful");
     }
-    public void clearfield(){
+    public void clearField(){
         clear(qauntity);
         LOG.info("successfully was able to clear search field");
     }
@@ -72,22 +72,22 @@ public class AddToCartPage extends CommonAPI {
     }
 
     public void UpdateCartBtn(){
-        click(updatecartbutton);
+        click(updateCartButton);
         LOG.info("Successfully able to update cart for total");
     }
 
     public void CheckOutBttn(){
-        click(checkoutbttn);
+        click(checkOutBttn);
         LOG.info("Successfully able to click on checkout bttn");
     }
 
     public void CheckOutBttnCart(){
-        click(checkoutbttn);
+        click(checkOutBttn);
         LOG.info("Successfully able to click on checkout bttn");
     }
 
-    public boolean updatecartbuttonFunction(){ return updatecartbutton.isEnabled();}
-    public boolean removeButtonFunction(){ return removebutton.isEnabled();}
+    public boolean updatecartbuttonFunction(){ return updateCartButton.isEnabled();}
+    public boolean removeButtonFunction(){ return removeButton.isEnabled();}
 
 
 }

@@ -24,10 +24,10 @@ public class CartTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         FishPage FishPage = new FishPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setFishlink();
-        FishPage.setTigershark();
-        FishPage.setToothlesstigersharkdesc();
-        FishPage.sharkatcbtn();
+        CatalogPage.setFishLink();
+        FishPage.setTigerShark();
+        FishPage.setToothlessTigerSharkDesc();
+        FishPage.sharkAtcBtn();
         String expectedtitle = "Description";
         Assert.assertEquals(expectedtitle, FishPage.descriptionTitle());
     }
@@ -39,11 +39,11 @@ public class CartTest extends CommonAPI {
           FishPage FishPage = new FishPage(getDriver());
           AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
           LandingPage.clickLink();
-          CatalogPage.setFishlink();
-          FishPage.setTigershark();
-          FishPage.setToothlesstigersharkdesc();
-          FishPage.sharkatcbtn();
-          AddToCartPage.clearfield();
+          CatalogPage.setFishLink();
+          FishPage.setTigerShark();
+          FishPage.setToothlessTigerSharkDesc();
+          FishPage.sharkAtcBtn();
+          AddToCartPage.clearField();
           AddToCartPage.updateQuantity("2");
           AddToCartPage.UpdateCartBtn();
           Assert.assertTrue(AddToCartPage.updatecartbuttonFunction());
@@ -56,10 +56,10 @@ public class CartTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         BirdsPage BirdsPage = new BirdsPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setBirdlink();
+        CatalogPage.setBirdLink();
         BirdsPage.setAmazonParrot();
         BirdsPage.setMaleAdultAmazonParrot();
-        BirdsPage.setAtcbutton();
+        BirdsPage.setAtcButton();
          String expectedtitle = "Description";
          Assert.assertEquals(expectedtitle, BirdsPage.DescriptionTitle());
     }
@@ -71,11 +71,11 @@ public class CartTest extends CommonAPI {
         BirdsPage BirdsPage = new BirdsPage(getDriver());
         AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setBirdlink();
+        CatalogPage.setBirdLink();
         BirdsPage.setAmazonParrot();
         BirdsPage.setMaleAdultAmazonParrot();
-        BirdsPage.setAtcbutton();
-        AddToCartPage.clearfield();
+        BirdsPage.setAtcButton();
+        AddToCartPage.clearField();
         AddToCartPage.updateQuantity("3");
         AddToCartPage.UpdateCartBtn();
         AddToCartPage.UpdateCartBtn();
@@ -87,7 +87,7 @@ public class CartTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         CatsPage CatsPage = new CatsPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setCatslink();
+        CatalogPage.setCatsLink();
         CatsPage.setPersian();
         CatsPage.femalepersian();
         CatsPage.setAtcfemalepersian();
@@ -100,11 +100,11 @@ public class CartTest extends CommonAPI {
         CatsPage CatsPage = new CatsPage(getDriver());
         AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setCatslink();
+        CatalogPage.setCatsLink();
         CatsPage.setPersian();
         CatsPage.femalepersian();
         CatsPage.setAtcfemalepersian();
-        AddToCartPage.clearfield();
+        AddToCartPage.clearField();
         AddToCartPage.updateQuantity("3");
            AddToCartPage.UpdateCartBtn();
            Assert.assertTrue(AddToCartPage.updatecartbuttonFunction());
@@ -116,9 +116,9 @@ public class CartTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         DogsPage DogsPage = new DogsPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setDoglink();
-        DogsPage.Bulldogs();
-        DogsPage.MaleAdultBullDog();
+        CatalogPage.setDogLink();
+        DogsPage.bullDogs();
+        DogsPage.maleAdultBullDog();
         DogsPage.atcMaleBulldog();
     }
 
@@ -129,11 +129,11 @@ public class CartTest extends CommonAPI {
         DogsPage DogsPage = new DogsPage(getDriver());
         AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setDoglink();
-        DogsPage.Bulldogs();
-        DogsPage.MaleAdultBullDog();
+        CatalogPage.setDogLink();
+        DogsPage.bullDogs();
+        DogsPage.maleAdultBullDog();
         DogsPage.atcMaleBulldog();
-        AddToCartPage.clearfield();
+        AddToCartPage.clearField();
         AddToCartPage.updateQuantity("3");
         AddToCartPage.UpdateCartBtn();
           AddToCartPage.UpdateCartBtn();
@@ -146,9 +146,9 @@ public class CartTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         ReptilesPage ReptilesPage = new ReptilesPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setReptileslink();
-        ReptilesPage.setRattlesnake();
-        ReptilesPage.setVenomsnake();
+        CatalogPage.setReptilesLink();
+        ReptilesPage.setRattleSnake();
+        ReptilesPage.setVenomSnake();
         ReptilesPage.atcVenomlessSnake();
     }
     @Test
@@ -158,11 +158,11 @@ public class CartTest extends CommonAPI {
             ReptilesPage ReptilesPage = new ReptilesPage(getDriver());
             AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
             LandingPage.clickLink();
-            CatalogPage.setReptileslink();
-            ReptilesPage.setRattlesnake();
-            ReptilesPage.setVenomsnake();
+            CatalogPage.setReptilesLink();
+            ReptilesPage.setRattleSnake();
+            ReptilesPage.setVenomSnake();
             ReptilesPage.atcVenomlessSnake();
-            AddToCartPage.clearfield();
+            AddToCartPage.clearField();
             AddToCartPage.updateQuantity("3");
             AddToCartPage.UpdateCartBtn();
           Assert.assertTrue(AddToCartPage.updatecartbuttonFunction());
@@ -174,15 +174,15 @@ public class CartTest extends CommonAPI {
         SignInPage SignInPage = new SignInPage(getDriver());
         FishPage FishPage = new FishPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("Tester");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("12345");
-        SignInPage.Loginbttn();
-        CatalogPage.setFishlink();
-        FishPage.setTigershark();
-        FishPage.setToothlesstigersharkdesc();
-        FishPage.sharkatcbtn();
+        SignInPage.loginBttn();
+        CatalogPage.setFishLink();
+        FishPage.setTigerShark();
+        FishPage.setToothlessTigerSharkDesc();
+        FishPage.sharkAtcBtn();
     }
     @Test
         public void LoggedinParrotCart(){
@@ -191,15 +191,15 @@ public class CartTest extends CommonAPI {
             SignInPage SignInPage = new SignInPage(getDriver());
             BirdsPage BirdsPage = new BirdsPage(getDriver());
             LandingPage.clickLink();
-            CatalogPage.setSignin();
+            CatalogPage.setSignIn();
             SignInPage.setUsername("Tester");
-            SignInPage.ClearPassword();
+            SignInPage.clearPassword();
             SignInPage.setPassword("12345");
-            SignInPage.Loginbttn();
-            CatalogPage.setBirdlink();
+            SignInPage.loginBttn();
+            CatalogPage.setBirdLink();
             BirdsPage.setAmazonParrot();
             BirdsPage.setMaleAdultAmazonParrot();
-            BirdsPage.setAtcbutton();
+            BirdsPage.setAtcButton();
         }
     @Test
     public void LoggedinPersianCatCarted(){
@@ -208,12 +208,12 @@ public class CartTest extends CommonAPI {
         SignInPage SignInPage = new SignInPage(getDriver());
         CatsPage CatsPage = new CatsPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("Tester");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("12345");
-        SignInPage.Loginbttn();
-        CatalogPage.setCatslink();
+        SignInPage.loginBttn();
+        CatalogPage.setCatsLink();
         CatsPage.setPersian();
         CatsPage.femalepersian();
         CatsPage.setAtcfemalepersian();
@@ -225,14 +225,14 @@ public class CartTest extends CommonAPI {
         SignInPage SignInPage = new SignInPage(getDriver());
         DogsPage DogsPage = new DogsPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("Tester");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("12345");
-        SignInPage.Loginbttn();
-        CatalogPage.setDoglink();
-        DogsPage.Bulldogs();
-        DogsPage.MaleAdultBullDog();
+        SignInPage.loginBttn();
+        CatalogPage.setDogLink();
+        DogsPage.bullDogs();
+        DogsPage.maleAdultBullDog();
         DogsPage.atcMaleBulldog();
     }
     @Test
@@ -242,14 +242,14 @@ public class CartTest extends CommonAPI {
         SignInPage SignInPage = new SignInPage(getDriver());
         ReptilesPage ReptilesPage = new ReptilesPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("Tester");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("12345");
-        SignInPage.Loginbttn();
-        CatalogPage.setReptileslink();
-        ReptilesPage.setRattlesnake();
-        ReptilesPage.setVenomsnake();
+        SignInPage.loginBttn();
+        CatalogPage.setReptilesLink();
+        ReptilesPage.setRattleSnake();
+        ReptilesPage.setVenomSnake();
         ReptilesPage.atcVenomlessSnake();
        }
           @Test
@@ -259,11 +259,11 @@ public class CartTest extends CommonAPI {
                FishPage FishPage = new FishPage(getDriver());
                AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
                LandingPage.clickLink();
-               CatalogPage.setFishlink();
-               FishPage.setTigershark();
-               FishPage.setToothlesstigersharkdesc();
-               FishPage.sharkatcbtn();
-               AddToCartPage.clearfield();
+               CatalogPage.setFishLink();
+               FishPage.setTigerShark();
+               FishPage.setToothlessTigerSharkDesc();
+               FishPage.sharkAtcBtn();
+               AddToCartPage.clearField();
                AddToCartPage.updateQuantity("2");
                AddToCartPage.UpdateCartBtn();
                AddToCartPage.removeButtonFunction();
@@ -276,11 +276,11 @@ public class CartTest extends CommonAPI {
                 CatsPage CatsPage = new CatsPage(getDriver());
                 AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
                 LandingPage.clickLink();
-                CatalogPage.setCatslink();
+                CatalogPage.setCatsLink();
                 CatsPage.setPersian();
                 CatsPage.femalepersian();
                 CatsPage.setAtcfemalepersian();
-                AddToCartPage.clearfield();
+                AddToCartPage.clearField();
                 AddToCartPage.updateQuantity("3");
                 AddToCartPage.UpdateCartBtn();
                 AddToCartPage.removeButtonFunction();
@@ -294,11 +294,11 @@ public class CartTest extends CommonAPI {
           DogsPage DogsPage = new DogsPage(getDriver());
           AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
           LandingPage.clickLink();
-          CatalogPage.setDoglink();
-          DogsPage.Bulldogs();
-          DogsPage.MaleAdultBullDog();
+          CatalogPage.setDogLink();
+          DogsPage.bullDogs();
+          DogsPage.maleAdultBullDog();
           DogsPage.atcMaleBulldog();
-          AddToCartPage.clearfield();
+          AddToCartPage.clearField();
           AddToCartPage.updateQuantity("3");
           AddToCartPage.UpdateCartBtn();
           AddToCartPage.removeButtonFunction();
@@ -311,11 +311,11 @@ public class CartTest extends CommonAPI {
           ReptilesPage ReptilesPage = new ReptilesPage(getDriver());
           AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
           LandingPage.clickLink();
-          CatalogPage.setReptileslink();
-          ReptilesPage.setRattlesnake();
-          ReptilesPage.setVenomsnake();
+          CatalogPage.setReptilesLink();
+          ReptilesPage.setRattleSnake();
+          ReptilesPage.setVenomSnake();
           ReptilesPage.atcVenomlessSnake();
-          AddToCartPage.clearfield();
+          AddToCartPage.clearField();
           AddToCartPage.updateQuantity("3");
           AddToCartPage.UpdateCartBtn();
           AddToCartPage.removeButtonFunction();

@@ -14,18 +14,18 @@ public class CatsPage extends CommonAPI {
     //menu bar
     //fish
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[1]/img")
-    private WebElement fishbar;
+    private WebElement fishBar;
     //dogs
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[2]/img")
-    private WebElement dogbar;
+    private WebElement dogBar;
     //reptiles
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement repbar;
+    private WebElement repBar;
     //dogs
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement catbar;
+    private WebElement catBar;
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[5]/img")
-    private WebElement birdsbar;
+    private WebElement birdsBar;
 
     //Catstype info
     //Manx
@@ -37,30 +37,30 @@ public class CatsPage extends CommonAPI {
 
     //types of Manx
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
-    private WebElement tailessmanx;
+    private WebElement tailessManx;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement TailessmanxTitle;
+    private WebElement tailessManxTitle;
 
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td[1]/a")
-    private WebElement tailmanx;
+    private WebElement tailManx;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement TailManxTitle;
+    private WebElement tailManxTitle;
 
     //types of Persian
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
-    private WebElement femalepersian;
+    private WebElement femalePersian;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement FemalepersianTitle;
+    private WebElement femalePersianTitle;
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td[1]/a")
-    private WebElement malepersian;
+    private WebElement malePersian;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement MalePersianTitle;
+    private WebElement malePersianTitle;
 
     //atcpersian
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[7]/td/a")
-    private WebElement atcfemalepersian;
+    private WebElement atcFemalePersian;
 
     public CatsPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -71,11 +71,11 @@ public class CatsPage extends CommonAPI {
         LOG.info("Selecting Manx Cat was successful");
     }
     public void setTaillessManx() {
-        click(tailessmanx);
+        click(tailessManx);
         LOG.info("Successfully was able to view Tailess Manx Cat");
     }
     public void setTailmanx() {
-        click(tailmanx);
+        click(tailManx);
         LOG.info("Successfully was able to click on with tail Manx Cat");
     }
 
@@ -85,21 +85,21 @@ public class CatsPage extends CommonAPI {
     }
 
     public void setMalepersian() {
-        click(malepersian);
+        click(malePersian);
         LOG.info("Successfully was able to click Adult male persian cat");
     }
     public void femalepersian(){
-        click(femalepersian);
+        click(femalePersian);
         LOG.info("Successfully was able to click on Adult Female persian cat");
     }
     public void setAtcfemalepersian(){
-        click(atcfemalepersian);
+        click(atcFemalePersian);
         LOG.info("Successfully was able to click on Add to Cart for Adult Female persian cat");
     }
-    public String TailessmanxTitle(){ return getElementText(TailessmanxTitle); }
-    public String TailManxTitle(){ return getElementText(TailManxTitle); }
-    public String FemalepersianTitle(){ return getElementText(FemalepersianTitle); }
-    public String MalePersianTitle(){ return getElementText(MalePersianTitle); }
+    public String tailessManxTitle(){ return getElementText(tailessManxTitle); }
+    public String tailManxTitle(){ return getElementText(tailManxTitle); }
+    public String femalePersianTitle(){ return getElementText(femalePersianTitle); }
+    public String malePersianTitle(){ return getElementText(malePersianTitle); }
 
 
 }

@@ -18,13 +18,13 @@ public class RegistrationPage extends CommonAPI {
     @FindBy(xpath = "//input[@name='password']")
     private WebElement password;
     @FindBy(xpath = "//input[@name='repeatedPassword']")
-    private WebElement repeatpassword;
+    private WebElement repeatPassword;
 
     //account information login
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[2]/tbody/tr[1]/td[2]/input")
-    private WebElement firstname;
+    private WebElement firstName;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[2]/tbody/tr[2]/td[2]/input")
-    private WebElement lastname;
+    private WebElement lastName;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[2]/tbody/tr[3]/td[2]/input")
     private WebElement email;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[2]/tbody/tr[4]/td[2]/input")
@@ -42,13 +42,13 @@ public class RegistrationPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[2]/tbody/tr[10]/td[2]/input")
     private WebElement country;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/input")
-    private WebElement saveaccountbtn;
+    private WebElement saveAccountBtn;
 
     //assertions xpaths
     @FindBy(xpath = "//h3[contains(text(),'Profile Information')]")
-    private WebElement Profiletext;
+    private WebElement profileText;
     @FindBy(xpath = "//h3[contains(text(),'Profile Information')]")
-    private WebElement Errortext;
+    private WebElement errorText;
 
 
 
@@ -64,16 +64,16 @@ public class RegistrationPage extends CommonAPI {
         type(password,item);
         LOG.info("Successfully was able to be in password field");
     }
-    public void setRepeatpassword(String item){
-        type(repeatpassword,item);
+    public void setRepeatPassword(String item){
+        type(repeatPassword,item);
         LOG.info("Successfully was able to be in Repeat PW field");
     }
-    public void setFirstname(String item){
-        type(firstname,item);
+    public void setFirstName(String item){
+        type(firstName,item);
         LOG.info("Successfully was able to be in First Name field");
     }
     public void setLastname(String item){
-        type(lastname,item);
+        type(lastName,item);
         LOG.info("Successfully was able to be in Last Name field");
     }
     public void setEmail(String item){
@@ -108,14 +108,14 @@ public class RegistrationPage extends CommonAPI {
         type(country,item);
         LOG.info("Successfully was able to be in Country field");
     }
-    public void setSaveaccountbtn(){
-        click(saveaccountbtn);
+    public void setSaveAccountBtn(){
+        click(saveAccountBtn);
         LOG.info("Successfully was to click on Save Account Information");
     }
 
-    public String Profiletext(){ return getElementText(Profiletext); }
-    public String Errortext(){ return getElementText(Errortext); }
-    public boolean saveAccountButtonFunction(){ return saveaccountbtn.isEnabled();}
+    public String profileText(){ return getElementText(profileText); }
+    public String errorText(){ return getElementText(errorText); }
+    public boolean saveAccountButtonFunction(){ return saveAccountBtn.isEnabled();}
 
 
 

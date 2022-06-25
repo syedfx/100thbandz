@@ -15,9 +15,9 @@ public class SearchTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.entersearch("zebra");
+        CatalogPage.enterSearch("zebra");
         waitFor(2);
-        CatalogPage.setSearchbutton();
+        CatalogPage.setSearchButton();
         Assert.assertTrue(CatalogPage.searchFieldBttnFunction());
 
     }
@@ -27,9 +27,9 @@ public class SearchTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.entersearch("Bulldog");
+        CatalogPage.enterSearch("Bulldog");
         waitFor(2);
-        CatalogPage.setSearchbutton();
+        CatalogPage.setSearchButton();
         String expectedtitle = "Bulldog";
         Assert.assertEquals(expectedtitle, CatalogPage.bulldogText());
     }
@@ -39,9 +39,9 @@ public class SearchTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.entersearch("snake");
+        CatalogPage.enterSearch("snake");
         waitFor(2);
-        CatalogPage.setSearchbutton();
+        CatalogPage.setSearchButton();
         String expectedtitle = "Rattlesnake";
         Assert.assertEquals(expectedtitle, CatalogPage.snakeText());
     }
@@ -51,17 +51,17 @@ public class SearchTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.entersearch("snake");
+        CatalogPage.enterSearch("snake");
         waitFor(5);
-        CatalogPage.setSearchbutton();
+        CatalogPage.setSearchButton();
         waitFor(5);
-        CatalogPage.setReturnmainmenu();
+        CatalogPage.setReturnMainMenu();
         waitFor(5);
-        CatalogPage.clearfield();
+        CatalogPage.clearField();
         waitFor(4);
-        CatalogPage.entersearch("fish");
+        CatalogPage.enterSearch("fish");
         waitFor(5);
-        CatalogPage.setSearchbutton();
+        CatalogPage.setSearchButton();
         String expectedtitle = "Goldfish";
         Assert.assertEquals(expectedtitle, CatalogPage.fishText());
     }
@@ -76,7 +76,7 @@ public class SearchTest extends CommonAPI {
         for (String pet : pets) {
             CatalogPage.typeAndSearch(pet);
             waitFor(3);
-            CatalogPage.clearfield();
+            CatalogPage.clearField();
             waitFor(3);
         }
 

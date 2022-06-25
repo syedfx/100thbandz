@@ -12,14 +12,14 @@ public class RegisterTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage SignInPage = new SignInPage(getDriver());
-        SignInPage.setRegisternow();
+        SignInPage.setRegisterNow();
         RegistrationPage RegistrationPage = new RegistrationPage(getDriver());
         RegistrationPage.setUsername("SyedFX");
         RegistrationPage.setPassword("12345");
-        RegistrationPage.setRepeatpassword("12345");
-        RegistrationPage.setFirstname("Syed");
+        RegistrationPage.setRepeatPassword("12345");
+        RegistrationPage.setFirstName("Syed");
         RegistrationPage.setLastname("ThaGod");
         RegistrationPage.setEmail("syedfx@gmail.com");
         RegistrationPage.setPhone("7187187181");
@@ -29,8 +29,8 @@ public class RegisterTest extends CommonAPI {
         RegistrationPage.setState("NY");
         RegistrationPage.setZipcode("10036");
         String expectedtitle = "Profile Information";
-        Assert.assertEquals(expectedtitle,RegistrationPage.Profiletext());
-        RegistrationPage.setSaveaccountbtn();
+        Assert.assertEquals(expectedtitle,RegistrationPage.profileText());
+        RegistrationPage.setSaveAccountBtn();
     }
 
     @Test
@@ -38,14 +38,14 @@ public class RegisterTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage SignInPage = new SignInPage(getDriver());
-        SignInPage.setRegisternow();
+        SignInPage.setRegisterNow();
         RegistrationPage RegistrationPage = new RegistrationPage(getDriver());
         RegistrationPage.setUsername(".,.,");
         RegistrationPage.setPassword("123");
-        RegistrationPage.setRepeatpassword("44");
-        RegistrationPage.setFirstname("fhfhfh");
+        RegistrationPage.setRepeatPassword("44");
+        RegistrationPage.setFirstName("fhfhfh");
         RegistrationPage.setLastname("ThaGod");
         RegistrationPage.setEmail("blahahhaa");
         RegistrationPage.setPhone("7tt5");
@@ -54,7 +54,7 @@ public class RegisterTest extends CommonAPI {
         RegistrationPage.setCity("New York");
         RegistrationPage.setState("NY");
         RegistrationPage.setZipcode("10036");
-        RegistrationPage.setSaveaccountbtn();
+        RegistrationPage.setSaveAccountBtn();
 //        Assert.assertTrue(RegistrationPage.saveAccountButtonFunction());
     }
 
@@ -63,14 +63,14 @@ public class RegisterTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage SignInPage = new SignInPage(getDriver());
-        SignInPage.setRegisternow();
+        SignInPage.setRegisterNow();
         RegistrationPage RegistrationPage = new RegistrationPage(getDriver());
         RegistrationPage.setUsername("Tester");
         RegistrationPage.setPassword("12345");
-        RegistrationPage.setRepeatpassword("12345");
-        RegistrationPage.setFirstname("Test");
+        RegistrationPage.setRepeatPassword("12345");
+        RegistrationPage.setFirstName("Test");
         RegistrationPage.setLastname("Test");
         RegistrationPage.setEmail("test@gmail.com");
         RegistrationPage.setPhone("333333333");
@@ -82,8 +82,8 @@ public class RegisterTest extends CommonAPI {
         RegistrationPage.setCountry("USA");
         waitFor(5);
         String expectedtitle = "Profile Information";
-        Assert.assertEquals(expectedtitle,RegistrationPage.Profiletext());
-        RegistrationPage.setSaveaccountbtn();
+        Assert.assertEquals(expectedtitle,RegistrationPage.profileText());
+        RegistrationPage.setSaveAccountBtn();
     }
 
 }

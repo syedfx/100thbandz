@@ -15,79 +15,79 @@ public class FishPage extends CommonAPI {
     //menu bar
     //fish
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[1]/img")
-    private WebElement fishbar;
+    private WebElement fishBar;
     //dogs
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[2]/img")
-    private WebElement dogbar;
+    private WebElement dogBar;
     //reptiles
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement repbar;
-    //dogs
+    private WebElement repBar;
+    //dog
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[4]/img")
-    private WebElement catbar;
+    private WebElement catBar;
     @FindBy(xpath = "//*[@id=\"QuickLinks\"]/a[5]/img")
-    private WebElement birdsbar;
+    private WebElement birdsBar;
 
 
     //fishtypes info
 
     //Angelfish
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
-    private WebElement angelfish;
+    private WebElement angelFish;
     //TigerShark
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td[1]/a")
-    private WebElement tigershark;
+    private WebElement tigerShark;
     //Koi
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[4]/td[1]/a")
     private WebElement koi;
     //Koi
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[5]/td[1]/a")
-    private WebElement goldfish;
+    private WebElement goldFish;
 
     //types of angelfish
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
-    private WebElement largeangelfishdesc;
+    private WebElement largeAngelFishDesc;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement largeangelfishtitle;
+    private WebElement largeAngelFishTitle;
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td[1]/a")
-    private WebElement smallangelfishdesc;
+    private WebElement smallAngelFishDesc;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement smallangelfishtitle;
+    private WebElement smallAngelFishTitle;
 
 
     //types of Tigershark
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
-    private WebElement toothlesstigersharkdesc;
+    private WebElement toothlessTigerSharkDesc;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement toothlesstigersharktitle;
+    private WebElement toothlessTigerSharkTitle;
 
     //shark atc
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[7]/td/a")
-    private WebElement atcbuttonshark;
+    private WebElement atcButtonShark;
 
 
     //types of koi
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
-    private WebElement spotkoidesc;
+    private WebElement spotKoiDesc;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement spotkoititle;
+    private WebElement spotKoiTitle;
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td[1]/a")
-    private WebElement nonspotkoidesc;
+    private WebElement nonSpotKoiDesc;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement nonspotkoititle;
+    private WebElement nonSpotKoiTitle;
 
     //types of Goldfish
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")
-    private WebElement malegoldfishdesc;
+    private WebElement maleGoldFishDesc;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement malegoldfishtitle;
+    private WebElement maleGoldFishTitle;
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td[1]/a")
-    private WebElement femalegoldfishdesc;
+    private WebElement femaleGoldFishDesc;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[3]/td/b/font")
-    private WebElement femalegoldfishtitle;
+    private WebElement femaleGoldFishTitle;
 
    // ATCbutton for assertion after you click on pet description and add to cart
     @FindBy(xpath = "//*[@id=\"Catalog\"]/table/tbody/tr[7]/td/a")
@@ -104,61 +104,61 @@ public class FishPage extends CommonAPI {
     }
 
         public void setAngelfish(){
-        click(angelfish);
+        click(angelFish);
         LOG.info("Selecting Angel Fish was sucessful");
         }
-        public void setLargeangelfishdesc() {
-            click(largeangelfishdesc);
+        public void setLargeAngelFishDesc() {
+            click(largeAngelFishDesc);
             LOG.info("Successfully was able to view Large AngelFish Description");
         }
-        public void setSmallangelfishdesc() {
-        click(smallangelfishdesc);
+        public void setSmallAngelFishDesc() {
+        click(smallAngelFishDesc);
         LOG.info("Successfully was able to view SmallAngelFish Description");
          }
-         public void setTigershark() {
-        click(tigershark);
+         public void setTigerShark() {
+        click(tigerShark);
          LOG.info("Selecting Shark was successful");
          }
-        public void setToothlesstigersharkdesc() {
-        click(toothlesstigersharkdesc);
+        public void setToothlessTigerSharkDesc() {
+        click(toothlessTigerSharkDesc);
         LOG.info("Successfully was able to view Toothless Shark Description");
           }
-        public void sharkatcbtn() {
-        click(atcbuttonshark);
+        public void sharkAtcBtn() {
+        click(atcButtonShark);
         LOG.info("Successfully Able to click on ATC Button");
     }
         public void setKoi() {
         click(koi);
         LOG.info("Selecting koi was successful");
          }
-         public void setNonspotkoidesc(){
-         click(nonspotkoidesc);
+         public void setNonspotKoiDesc(){
+         click(nonSpotKoiDesc);
          LOG.info("Successfully was able to view Non Spotted Koi Description");
         }
-        public void setspotkoidesc(){
-        click(spotkoidesc);
+        public void setSpotKoiDesc(){
+        click(spotKoiDesc);
         LOG.info("Successfully was able to view Spotted Koi Description");
          }
-        public void setGoldfish(){
-        click(goldfish);
+        public void setGoldFish(){
+        click(goldFish);
         LOG.info("Selecting koi was successful");
         }
-        public void Malegoldfishdesc(){
-        click(malegoldfishdesc);
+        public void maleGoldFishDesc(){
+        click(maleGoldFishDesc);
         LOG.info("Successfully was able to view Male GoldFish Description");
         }
-        public void Femalegoldfishdesc(){
-        click(femalegoldfishdesc);
+        public void femaleGoldFishDesc(){
+        click(femaleGoldFishDesc);
         LOG.info("Successfully was able to view Female GoldFish Description");
         }
 
-    public String largeangelfishtitle(){ return getElementText(largeangelfishtitle); }
-    public String smallangelfishtitle(){ return getElementText(smallangelfishtitle); }
-    public String toothlesstigersharktitle(){ return getElementText(toothlesstigersharktitle); }
-    public String spotkoititle(){ return getElementText(spotkoititle); }
-    public String nonspotkoititle(){ return getElementText(nonspotkoititle); }
-    public String malegoldfishtitle(){ return getElementText(malegoldfishtitle); }
-    public String femalegoldfishtitle(){ return getElementText(femalegoldfishtitle); }
+    public String largeAngelFishTitle(){ return getElementText(largeAngelFishTitle); }
+    public String smallAngelFishTitle(){ return getElementText(smallAngelFishTitle); }
+    public String toothlessTigerSharkTitle(){ return getElementText(toothlessTigerSharkTitle); }
+    public String spotKoiTitle(){ return getElementText(spotKoiTitle); }
+    public String nonSpotKoiTitle(){ return getElementText(nonSpotKoiTitle); }
+    public String maleGoldFishTitle(){ return getElementText(maleGoldFishTitle); }
+    public String femaleGoldFishTitle(){ return getElementText(femaleGoldFishTitle); }
     public String descriptionTitle(){ return getElementText(descriptionTitle); }
 
 

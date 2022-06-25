@@ -7,7 +7,6 @@ import pages.petstore.*;
 
 
 public class AccountsTest extends CommonAPI {
-
     @Test
     public void FavoriteCategoryBirds(){
         LandingPage LandingPage = new LandingPage(getDriver());
@@ -15,15 +14,15 @@ public class AccountsTest extends CommonAPI {
         SignInPage SignInPage  = new SignInPage(getDriver());
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.FavoriteCategories();
-        MyAccountPage.FaveBird();
-        MyAccountPage.SaveAccountInfoBttn();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.favoriteCategories();
+        MyAccountPage.faveBird();
+        MyAccountPage.saveAccountInfoBttn();
         Assert.assertTrue(MyAccountPage.saveAccountButtonFunction());
     }
 
@@ -34,15 +33,15 @@ public class AccountsTest extends CommonAPI {
         SignInPage SignInPage  = new SignInPage(getDriver());
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
         MyAccountPage.setFaveCategory("FISH");
-        MyAccountPage.FaveFish();
-        MyAccountPage.SaveAccountInfoBttn();
+        MyAccountPage.faveFish();
+        MyAccountPage.saveAccountInfoBttn();
        Assert.assertTrue(MyAccountPage.saveAccountButtonFunction());
 
     }
@@ -53,15 +52,15 @@ public class AccountsTest extends CommonAPI {
         SignInPage SignInPage  = new SignInPage(getDriver());
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.FavoriteCategories();
-        MyAccountPage.FaveDog();
-        MyAccountPage.SaveAccountInfoBttn();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.favoriteCategories();
+        MyAccountPage.faveDog();
+        MyAccountPage.saveAccountInfoBttn();
        Assert.assertTrue(MyAccountPage.saveAccountButtonFunction());
     }
     @Test
@@ -71,15 +70,15 @@ public class AccountsTest extends CommonAPI {
         SignInPage SignInPage  = new SignInPage(getDriver());
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.FavoriteCategories();
-        MyAccountPage.FaveReptiles();
-        MyAccountPage.SaveAccountInfoBttn();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.favoriteCategories();
+        MyAccountPage.faveReptiles();
+        MyAccountPage.saveAccountInfoBttn();
         Assert.assertTrue(MyAccountPage.saveAccountButtonFunction());
     }
     @Test
@@ -89,15 +88,15 @@ public class AccountsTest extends CommonAPI {
         SignInPage SignInPage  = new SignInPage(getDriver());
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.FavoriteCategories();
-        MyAccountPage.FaveCat();
-        MyAccountPage.SaveAccountInfoBttn();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.favoriteCategories();
+        MyAccountPage.faveCat();
+        MyAccountPage.saveAccountInfoBttn();
         Assert.assertTrue(MyAccountPage.saveAccountButtonFunction());
   }
     @Test
@@ -107,20 +106,20 @@ public class AccountsTest extends CommonAPI {
         SignInPage SignInPage  = new SignInPage(getDriver());
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
+        SignInPage.loginBttn();
         waitFor(3);
-        CatalogPage.setMyaccount();
+        CatalogPage.setMyAccount();
         waitFor(3);
-        MyAccountPage.Phone();
-        MyAccountPage.ClearPhone();
+        MyAccountPage.phone();
+        MyAccountPage.clearPhone();
         waitFor(5);
-        MyAccountPage.UpdatePhone("111-111-1111");
+        MyAccountPage.updatePhone("111-111-1111");
         waitFor(5);
-        MyAccountPage.SaveAccountInfoBttn();
+        MyAccountPage.saveAccountInfoBttn();
         Assert.assertTrue(MyAccountPage.saveAccountButtonFunction());
     }
     @Test
@@ -130,15 +129,15 @@ public class AccountsTest extends CommonAPI {
             SignInPage  SignInPage  = new SignInPage(getDriver());
             MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
             LandingPage.clickLink();
-            CatalogPage.setSignin();
+            CatalogPage.setSignIn();
             SignInPage.setUsername("Tester1");
-            SignInPage.ClearPassword();
+            SignInPage.clearPassword();
             SignInPage.setPassword("123456");
-            SignInPage.Loginbttn();
-            CatalogPage.setMyaccount();
-            MyAccountPage.ClearEmail();
+            SignInPage.loginBttn();
+            CatalogPage.setMyAccount();
+            MyAccountPage.clearEmail();
             MyAccountPage.updateEmail("CaroleBaskin@gmail.com");
-            MyAccountPage.SaveAccountInfoBttn();
+            MyAccountPage.saveAccountInfoBttn();
             Assert.assertTrue(MyAccountPage.saveAccountButtonFunction());
 
     }

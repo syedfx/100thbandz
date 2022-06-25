@@ -12,7 +12,7 @@ public class MyAccountPage extends CommonAPI {
     private final Logger LOG= LoggerFactory.getLogger(MyAccountPage.class);
 
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[3]/tbody/tr[2]/td[2]/select")
-    private WebElement FaveCategory;
+    private WebElement faveCategory;
 
     //userinformation
     //new password
@@ -20,15 +20,15 @@ public class MyAccountPage extends CommonAPI {
 
 
     @FindBy(xpath = "//*[@id=\"stripes--1784875822\"]")
-    private WebElement newpassword;
+    private WebElement newPassword;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[1]/tbody/tr[3]/td[2]/input")
-    private WebElement repeatnewpassword;
+    private WebElement repeatNewPassword;
 
     //account information
     @FindBy(css = "input[name='account.firstName')")
-    private WebElement firstname;
+    private WebElement firstName;
     @FindBy(css = "input[name='account.lastName')")
-    private WebElement lastname;
+    private WebElement lastName;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[2]/tbody/tr[3]/td[2]/input")
     private WebElement email;
     @FindBy(xpath= "//*[@id=\"Catalog\"]/form/table[2]/tbody/tr[4]/td[2]/input")
@@ -47,71 +47,71 @@ public class MyAccountPage extends CommonAPI {
     @FindBy(css = "input[name='account.country')")
     private WebElement country;
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/input")
-    private WebElement saveaccountbtn;
+    private WebElement saveAccountBtn;
 
 
     //my fave categories
     @FindBy(xpath = "//*[@id=\"Catalog\"]/form/table[3]/tbody/tr[2]/td[2]/select")
-    private WebElement listdown;
+    private WebElement listDown;
 
     @FindBy(xpath = " //*[@id=\"Catalog\"]/form/table[3]/tbody/tr[2]/td[2]/select/option[1]")
-    private WebElement favfish;
+    private WebElement favFish;
     @FindBy(xpath = " //*[@id=\"Catalog\"]/form/table[3]/tbody/tr[2]/td[2]/select/option[2]")
-    private WebElement favdog;
+    private WebElement favDog;
     @FindBy(xpath = " //*[@id=\"Catalog\"]/form/table[3]/tbody/tr[2]/td[2]/select/option[3]")
-    private WebElement favreptiles;
+    private WebElement favReptiles;
     @FindBy(xpath = " //*[@id=\"Catalog\"]/form/table[3]/tbody/tr[2]/td[2]/select/option[4]")
-    private WebElement favcat;
+    private WebElement favCat;
     @FindBy(xpath = " //*[@id=\"Catalog\"]/form/table[3]/tbody/tr[2]/td[2]/select/option[5]")
-    private WebElement favbird;
+    private WebElement favBird;
 
     //my Orders
     @FindBy(xpath = "//*[@id=\"Catalog\"]/a")
-    private WebElement myorders;
+    private WebElement myOrders;
 
     //assertions xpath favorite category my account
     @FindBy(xpath = "//td[contains(text(),'Favourite Category:')]")
-    private WebElement favouritecategorytext;
+    private WebElement favouriteCategoryText;
 
 
     public MyAccountPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
-    public void newpassword(String item){
-        type(newpassword,item);
+    public void newPassword(String item){
+        type(newPassword,item);
         LOG.info("Successfully able to type in new password");
     }
-    public void newrepeatpassword(String item){
-        type(repeatnewpassword,item);
+    public void newRepeatpassword(String item){
+        type(repeatNewPassword,item);
         LOG.info("Successfully able to type in new password again");
     }
-    public void FirstName(){
-        click(firstname);
+    public void firstName(){
+        click(firstName);
         LOG.info("successfully clicked inside First Name Field");
     }
-    public void updatename(String item){
-        type(firstname,item);
+    public void updateName(String item){
+        type(firstName,item);
         LOG.info("Successfully able to update firstname");
     }
-    public void ClearName(){
-        clear(firstname);
+    public void clearName(){
+        clear(firstName);
         LOG.info("successfully cleared first name field");
     }
-    public void LastName(){
-        click(lastname);
+    public void lastName(){
+        click(lastName);
         LOG.info("successfully clicked inside Last Name Field");
     }
 
-    public void updatelastname(String item){
-        type(lastname,item);
+    public void updateLastName(String item){
+        type(lastName,item);
         LOG.info("Successfully able to update last name");
     }
-    public void Clearlastname(){
-        clear(lastname);
+    public void clearLastName(){
+        clear(lastName);
         LOG.info("successfully cleared last name");
     }
-    public void Email(){
+    public void email(){
         click(email);
         LOG.info("successfully clicked inside Email Field");
     }
@@ -119,148 +119,148 @@ public class MyAccountPage extends CommonAPI {
         type(email,item);
         LOG.info("Successfully able to update email");
     }
-    public void ClearEmail(){
+    public void clearEmail(){
         clear(email);
         LOG.info("successfully cleared email field");
     }
-    public void ClearPhone(){
+    public void clearPhone(){
         clear(phone);
         LOG.info("successfully cleared phone field");
     }
 
-    public void UpdatePhone(String item){
+    public void updatePhone(String item){
         type(phone,item);
         LOG.info("Successfully able to update phone number");
     }
-    public void Phone(){
+    public void phone(){
         click(phone);
         LOG.info("successfully clicked in phone field");
     }
-    public void Address1(){
+    public void address1(){
         click(address1);
         LOG.info("successfully clicked inside Address field");
     }
-    public void UpdateAddress1(String item){
+    public void updateAddress1(String item){
         type(address1,item);
-        LOG.info("Successfully able to update Address 1");
+        LOG.info("Successfully able to type in update Address 1 field");
     }
-    public void ClearAddress1(){
+    public void clearAddress1(){
         clear(address1);
-        LOG.info("successfully cleared Address 1");
+        LOG.info("successfully cleared Address 1 field");
     }
-    public void Address2(){
+    public void address2(){
         click(address2);
-        LOG.info("successfully clicked inside Address 2");
+        LOG.info("successfully clicked inside of Address 2");
     }
-    public void UpdateAddress2(String item){
+    public void updateAddress2(String item){
         type(address2,item);
         LOG.info("Successfully able to update Address 2");
     }
-    public void ClearAddress2(){
+    public void clearAddress2(){
         clear(address2);
         LOG.info("successfully cleared Address 2");
     }
-    public void City(){
+    public void city(){
         click(city);
-        LOG.info("successfully clicked inside city Field");
+        LOG.info("successfully clicked inside of city Field");
     }
-    public void UpdateCity(String item){
+    public void updateCity(String item){
         type(city,item);
         LOG.info("Successfully able to update city");
     }
-    public void ClearCity(){
+    public void clearCity(){
         clear(city);
-        LOG.info("successfully cleared city");
+        LOG.info("successfully cleared city field");
     }
-    public void State(){
+    public void state(){
         click(state);
         LOG.info("successfully clicked inside State field");
     }
-    public void UpdateState(String item){
+    public void updateState(String item){
         type(state,item);
-        LOG.info("Successfully able to update State");
+        LOG.info("Successfully able to update State field");
     }
-    public void ClearState(){
+    public void clearState(){
         clear(state);
-        LOG.info("successfully cleared State");
+        LOG.info("successfully cleared State field");
     }
-    public void Zipcode(){
+    public void zipcode(){
         click(zipcode);
         LOG.info("successfully clicked inside zipcode");
     }
-    public void UpdateZip(String item){
+    public void updateZip(String item){
         type(zipcode,item);
         LOG.info("Successfully able to update zipcode");
     }
-    public void ClearZip(){
+    public void clearZip(){
         clear(zipcode);
         LOG.info("successfully cleared zipcode");
     }
-    public void Country(){
+    public void country(){
         click(country);
         LOG.info("successfully clicked inside Country Field");
     }
-    public void UpdateCountry(String item){
+    public void updateCountry(String item){
         type(country,item);
         LOG.info("Successfully able to update country");
     }
-    public void ClearCountry(){
+    public void clearCountry(){
         clear(country);
         LOG.info("successfully cleared country field");
     }
-    public void ClickMyOrders(){
-        click(myorders);
+    public void clickMyOrders(){
+        click(myOrders);
         LOG.info("Successfully able to to click on My Orders");
     }
 
-    public void FavoriteCategories(){
-        click(listdown);
+    public void favoriteCategories(){
+        click(listDown);
         LOG.info("Successfully able to click from listdown");
     }
-    public void FaveFish(){
-        click(favfish);
+    public void faveFish(){
+        click(favFish);
         LOG.info("Successfully able to select Fish from Favorite Category");
     }
-    public void FaveDog(){
-        click(favdog);
+    public void faveDog(){
+        click(favDog);
         LOG.info("Successfully able to select Dog from Favorite Category");
     }
-    public void FaveReptiles(){
-        click(favreptiles);
+    public void faveReptiles(){
+        click(favReptiles);
         LOG.info("Successfully able to select Reptiles from Favorite Category");
     }
 
-    public void FaveBird(){
-        click(favbird);
+    public void faveBird(){
+        click(favBird);
         LOG.info("Successfully able to select Birds from Favorite Category");
     }
-    public void FaveCat(){
-        click(favcat);
+    public void faveCat(){
+        click(favCat);
         LOG.info("Successfully able to select Birds from Favorite Category");
     }
 
-    public void SaveAccountInfoBttn(){
-        click(saveaccountbtn);
+    public void saveAccountInfoBttn(){
+        click(saveAccountBtn);
         LOG.info("Successfully able to Save Account information");
     }
 
     public void setFaveCategory (String input) {
-        selectFromDropdown(FaveCategory, input);
+        selectFromDropdown(faveCategory, input);
         LOG.info("successfully was able to sort through dropdown");
     }
 
     public void newPassWordField(){
-        click(newpassword);
+        click(newPassword);
         LOG.info("Successfully able to Save Account information");
     }
 
-    public void RepeatPassWordField(){
-        click(repeatnewpassword);
-        LOG.info("Successfully able to Save Account information");
+    public void repeatPassWordField(){
+        click(repeatNewPassword);
+        LOG.info("Successfully able to type in repeatpassword");
     }
 
-    public String favouritecategorytext(){ return getElementText(favouritecategorytext); }
-    public boolean saveAccountButtonFunction(){ return saveaccountbtn.isEnabled();}
+    public String favouriteCategoryText(){ return getElementText(favouriteCategoryText); }
+    public boolean saveAccountButtonFunction(){ return saveAccountBtn.isEnabled();}
 
 
 

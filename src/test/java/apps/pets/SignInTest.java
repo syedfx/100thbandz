@@ -15,13 +15,13 @@ public class SignInTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         SignInPage SignInPage  = new SignInPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
+        SignInPage.loginBttn();
         String expectedtitle = "Welcome Joe!";
-        Assert.assertEquals(expectedtitle,SignInPage.WelcomeText());
+        Assert.assertEquals(expectedtitle,SignInPage.welcomeText());
     }
     @Test
     public void ValidLogout(){
@@ -29,12 +29,12 @@ public class SignInTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         SignInPage SignInPage  = new SignInPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setSignout();
+        SignInPage.loginBttn();
+        CatalogPage.setSignOut();
         Assert.assertTrue(CatalogPage.logoutLinkFunction());
     }
 
@@ -44,11 +44,11 @@ public class SignInTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         SignInPage SignInPage  = new SignInPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("bllahaha");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("hfhfhfhf");
-        SignInPage.Loginbttn();
+        SignInPage.loginBttn();
         Assert.assertTrue(SignInPage.loginLinkFunction());
     }
 
@@ -58,13 +58,13 @@ public class SignInTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         SignInPage SignInPage  = new SignInPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("syedfx");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("Risat456");
-        SignInPage.Loginbttn();
+        SignInPage.loginBttn();
         String expectedtitle = "Welcome Syed!";
-        Assert.assertEquals(expectedtitle,SignInPage.WelcomeText());
+        Assert.assertEquals(expectedtitle,SignInPage.welcomeText());
     }
 
     @Test
@@ -73,12 +73,12 @@ public class SignInTest extends CommonAPI {
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         SignInPage SignInPage  = new SignInPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("syedfx");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("Risat456");
-        SignInPage.Loginbttn();
-        CatalogPage.setSignout();
+        SignInPage.loginBttn();
+        CatalogPage.setSignOut();
         Assert.assertTrue(CatalogPage.logoutLinkFunction());
 
     }

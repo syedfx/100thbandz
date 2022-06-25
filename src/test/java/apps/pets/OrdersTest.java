@@ -15,16 +15,16 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.order9072();
         String expectedtitle = "Order #9072 2022/06/09 12:00:00";
-        Assert.assertEquals(expectedtitle,MyOrdersPage.ordernumberDetails());
+        Assert.assertEquals(expectedtitle,MyOrdersPage.orderNumberDetails());
     }
 
     @Test
@@ -35,16 +35,16 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.order9073();
         String expectedtitle = "Order #9073 2022/06/09 12:00:00";
-        Assert.assertEquals(expectedtitle,MyOrdersPage.ordernumberDetails());
+        Assert.assertEquals(expectedtitle,MyOrdersPage.orderNumberDetails());
     }
     @Test
     public void Order9074(){
@@ -54,13 +54,13 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.order9074();
         String expectedtitle = "Adult Male Amazon Parrot";
         Assert.assertEquals(expectedtitle,MyOrdersPage.orderDescriptionDetails());
@@ -74,13 +74,13 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.order9078();
         String expectedtitle = "Total: $193.50";
         Assert.assertEquals(expectedtitle,MyOrdersPage.orderTotal());
@@ -94,16 +94,16 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.order9079();
         String expectedtitle = "UPS";
-        Assert.assertEquals(expectedtitle,MyOrdersPage.shippingprovider());
+        Assert.assertEquals(expectedtitle,MyOrdersPage.shippingProvider());
     }
 
     @Test
@@ -114,13 +114,13 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.Order85940();
         String expectedtitle = "Shipping Address";
         Assert.assertEquals(expectedtitle,MyOrdersPage.shippingAddress());
@@ -133,13 +133,13 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.Order87422();
         String expectedtitle = "Billing Address";
         Assert.assertEquals(expectedtitle,MyOrdersPage.billingAddress());
@@ -153,13 +153,13 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.Order219319();
         String expectedtitle = "Payment Details";
         Assert.assertEquals(expectedtitle,MyOrdersPage.paymentDetails());
@@ -173,16 +173,16 @@ public class OrdersTest extends CommonAPI {
         MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
         MyOrdersPage  MyOrdersPage = new MyOrdersPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setMyaccount();
-        MyAccountPage.ClickMyOrders();
+        SignInPage.loginBttn();
+        CatalogPage.setMyAccount();
+        MyAccountPage.clickMyOrders();
         MyOrdersPage.Order219350();
         String expectedtitle = "Order #219350 2022/06/18 12:00:00";
-        Assert.assertEquals(expectedtitle,MyOrdersPage.ordernumberDetails());
+        Assert.assertEquals(expectedtitle,MyOrdersPage.orderNumberDetails());
 
     }
 }

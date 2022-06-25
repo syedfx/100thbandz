@@ -13,12 +13,12 @@ public class FishTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setFishlink();
+        CatalogPage.setFishLink();
         FishPage FishPage = new FishPage(getDriver());
         FishPage.setAngelfish();
-        FishPage.setLargeangelfishdesc();
+        FishPage.setLargeAngelFishDesc();
         String expectedtitle = "Large Angelfish";
-        Assert.assertEquals(expectedtitle,FishPage.largeangelfishtitle());
+        Assert.assertEquals(expectedtitle,FishPage.largeAngelFishTitle());
     }
 
     @Test
@@ -26,12 +26,12 @@ public class FishTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setFishlink();
+        CatalogPage.setFishLink();
         FishPage FishPage = new FishPage(getDriver());
         FishPage.setAngelfish();
-        FishPage.setSmallangelfishdesc();
+        FishPage.setSmallAngelFishDesc();
         String expectedtitle = "Small Angelfish";
-        Assert.assertEquals(expectedtitle,FishPage. smallangelfishtitle());
+        Assert.assertEquals(expectedtitle,FishPage. smallAngelFishTitle());
     }
 
     @Test
@@ -39,12 +39,12 @@ public class FishTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setFishlink();
+        CatalogPage.setFishLink();
         FishPage FishPage = new FishPage(getDriver());
-        FishPage.setTigershark();
-        FishPage.setToothlesstigersharkdesc();
-        String expectedtitle = "Toothless Tiger Shark";
-        Assert.assertEquals(expectedtitle,FishPage. toothlesstigersharktitle());
+        FishPage.setTigerShark();
+        FishPage.setToothlessTigerSharkDesc();
+        String expectedTitle = "Toothless Tiger Shark";
+        Assert.assertEquals(expectedTitle,FishPage. toothlessTigerSharkTitle());
     }
 
     @Test
@@ -52,12 +52,12 @@ public class FishTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setFishlink();
+        CatalogPage.setFishLink();
         FishPage FishPage = new FishPage(getDriver());
         FishPage.setKoi();
-        FishPage.setspotkoidesc();
+        FishPage.setSpotKoiDesc();
         String expectedtitle = "Spotted Koi";
-        Assert.assertEquals(expectedtitle,FishPage.spotkoititle());
+        Assert.assertEquals(expectedtitle,FishPage.spotKoiTitle());
     }
 
     @Test
@@ -65,24 +65,24 @@ public class FishTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setFishlink();
+        CatalogPage.setFishLink();
         FishPage FishPage = new FishPage(getDriver());
         FishPage.setKoi();
-        FishPage.setNonspotkoidesc();
+        FishPage.setNonspotKoiDesc();
         String expectedtitle = "Spotless Koi";
-        Assert.assertEquals(expectedtitle,FishPage. nonspotkoititle());
+        Assert.assertEquals(expectedtitle,FishPage. nonSpotKoiTitle());
     }
     @Test
     public void MaleGoldFishDesc() {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setFishlink();
+        CatalogPage.setFishLink();
         FishPage FishPage = new FishPage(getDriver());
-        FishPage.setGoldfish();
-        FishPage.Malegoldfishdesc();
+        FishPage.setGoldFish();
+        FishPage.maleGoldFishDesc();
         String expectedtitle = "Adult Male Goldfish";
-        Assert.assertEquals(expectedtitle,FishPage. malegoldfishtitle());
+        Assert.assertEquals(expectedtitle,FishPage. maleGoldFishTitle());
 
          }
         @Test
@@ -90,11 +90,11 @@ public class FishTest extends CommonAPI {
             LandingPage LandingPage = new LandingPage(getDriver());
             LandingPage.clickLink();
             CatalogPage CatalogPage = new CatalogPage(getDriver());
-            CatalogPage.setFishlink();
+            CatalogPage.setFishLink();
             FishPage FishPage = new FishPage(getDriver());
-            FishPage.setGoldfish();
-            FishPage.Femalegoldfishdesc();
+            FishPage.setGoldFish();
+            FishPage.femaleGoldFishDesc();
             String expectedtitle = "Adult Female Goldfish";
-            Assert.assertEquals(expectedtitle, FishPage.malegoldfishtitle());
+            Assert.assertEquals(expectedtitle, FishPage.maleGoldFishTitle());
         }
 }

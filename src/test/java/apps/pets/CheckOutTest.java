@@ -16,17 +16,17 @@ public class CheckOutTest extends CommonAPI {
         CheckOutPage CheckOutPage = new CheckOutPage(getDriver());
         AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setBirdlink();
+        SignInPage.loginBttn();
+        CatalogPage.setBirdLink();
         BirdsPage.setAmazonParrot();
         BirdsPage.setMaleAdultAmazonParrot();
-        BirdsPage.setAtcbutton();
+        BirdsPage.setAtcButton();
         AddToCartPage.CheckOutBttn();
-        CheckOutPage.setContinuebutton();
+        CheckOutPage.setContinueButton();
         CheckOutPage.setConfirmOrderbtn2();
         String expectedtitle = "Description";
         Assert.assertEquals(expectedtitle,CheckOutPage. description());
@@ -40,24 +40,24 @@ public class CheckOutTest extends CommonAPI {
         CheckOutPage CheckOutPage = new CheckOutPage(getDriver());
         AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setBirdlink();
+        SignInPage.loginBttn();
+        CatalogPage.setBirdLink();
         BirdsPage.setAmazonParrot();
         BirdsPage.setAtcbutton1();
         AddToCartPage.CheckOutBttn();
         CheckOutPage.setCardSelection("American Express");
-        CheckOutPage.setContinuebutton();
+        CheckOutPage.setContinueButton();
         CheckOutPage.setConfirmOrderbtn2();
         String expectedtitle = "Description";
         Assert.assertEquals(expectedtitle,CheckOutPage. description());
     }
 
     @Test
-    public void CheckoutWithShiptodifferentAddress() {
+    public void CheckoutWithShipToDifferentAddress() {
         LandingPage LandingPage = new LandingPage(getDriver());
         CatalogPage CatalogPage = new CatalogPage(getDriver());
         SignInPage SignInPage = new SignInPage(getDriver());
@@ -65,20 +65,20 @@ public class CheckOutTest extends CommonAPI {
         CheckOutPage CheckOutPage = new CheckOutPage(getDriver());
         AddToCartPage AddToCartPage = new AddToCartPage(getDriver());
         LandingPage.clickLink();
-        CatalogPage.setSignin();
+        CatalogPage.setSignIn();
         SignInPage.setUsername("TigerKing");
-        SignInPage.ClearPassword();
+        SignInPage.clearPassword();
         SignInPage.setPassword("exotic");
-        SignInPage.Loginbttn();
-        CatalogPage.setBirdlink();
+        SignInPage.loginBttn();
+        CatalogPage.setBirdLink();
         BirdsPage.setAmazonParrot();
         BirdsPage.setMaleAdultAmazonParrot();
-        BirdsPage.setAtcbutton();
+        BirdsPage.setAtcButton();
         AddToCartPage.CheckOutBttn();
           waitFor(5);
       CheckOutPage.setShipdiffaddy();
         CheckOutPage.waitFor(1);
-        CheckOutPage.setContinuebutton();
+        CheckOutPage.setContinueButton();
         CheckOutPage.ClearFirstName();
         CheckOutPage.setFirstName("Donald Trump");
         CheckOutPage.ClearLastName();
@@ -95,7 +95,7 @@ public class CheckOutTest extends CommonAPI {
         CheckOutPage.setZip("12345");
         CheckOutPage.ClearCountry();
         CheckOutPage.setCountry("USA");
-        CheckOutPage.continuebuttonshippingaddress();
+        CheckOutPage.continueButtonShippingAddress();
         CheckOutPage.setConfirmOrderbtn2();
         String expectedtitle = "Description";
         Assert.assertEquals(expectedtitle,CheckOutPage. description());

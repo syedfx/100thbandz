@@ -11,7 +11,7 @@ public class BirdsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setBirdlink();
+        CatalogPage.setBirdLink();
         BirdsPage Birdspage = new BirdsPage(getDriver());
         Birdspage.setAmazonParrot();
         Birdspage.setMaleAdultAmazonParrot();
@@ -24,7 +24,7 @@ public class BirdsTest extends CommonAPI {
         LandingPage LandingPage = new LandingPage(getDriver());
         LandingPage.clickLink();
         CatalogPage CatalogPage = new CatalogPage(getDriver());
-        CatalogPage.setBirdlink();
+        CatalogPage.setBirdLink();
         BirdsPage Birdspage = new BirdsPage(getDriver());
         Birdspage.setFinch();
         Birdspage.setMaleAdultFinch();
